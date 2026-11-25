@@ -22,6 +22,13 @@ app.Use(async (context, next) => {
     }
     await next();
 });
+// Allow the demo tab to be embedded by Microsoft Teams only (and same-origin).
+app.Use(async (context, next) => {
+    if (context.Request.Path.StartsWithSegments("/teams"))
+        context.Response.Headers["Content-Security-Policy"] = "frame-ancestors 'self' https://teams.microsoft.com https://*.teams.microsoft.com https://*.cloud.microsoft;";
+    await next();
+});
+app.UseStaticFiles();
 app.MapGet("/health", () => Results.Ok(new { status = "ok", demo = true }));
 app.MapMcp("/mcp");
 app.Run();

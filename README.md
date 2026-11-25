@@ -29,3 +29,6 @@ Kategorije zaposlenika: internet, mobile, tv, billing, contracts, sales, securit
  
 ## Provjera
 python3 scripts/validate_seed.py provjerava seed količine, jedinstvenost i referencijalni integritet. dotnet build provjerava C# kompilaciju. Nakon deploya provjeriti MCP tools/list, dohvat DEMO-001/002, račun RAC-001, ugovor UG-001, provjeru demo područja i kreiranje prijave uz potvrdu. Ne koristiti stvarne podatke.
+
+## Microsoft Teams
+See [TeamsApp/README.md](TeamsApp/README.md) for the channel tab package and installation. This is a public synthetic-only demo, not a native Teams calling bot.

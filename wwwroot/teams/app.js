@@ -1,0 +1,15 @@
+const agents = { sara: { id: "agent_1201m894akmefcatc7epzy2pvq8s", title: "Sara – Customer Service", description: "Testirajte upite o tarifama, računima, uslugama i poteškoćama." }, customer: { id: "agent_1801m894c1sze8781y0g9y21kt25", title: "Customer Simulator", description: "Glumi korisnicu. Najprije je pozdravite kao agent korisničke podrške." } };
+const key = new URLSearchParams(location.search).get("agent") === "customer" ? "customer" : "sara";
+const agent = agents[key];
+document.getElementById("agent-title").textContent = agent.title;
+document.getElementById("agent-description").textContent = agent.description;
+document.getElementById(key+"-link").setAttribute("aria-current","page");
+document.getElementById("browser-link").href = new URL("index.html?agent="+key,location.href).href;
+const widget=document.createElement("elevenlabs-convai");
+widget.setAttribute("agent-id",agent.id);
+document.getElementById("widget").appendChild(widget);
+const script=document.createElement("script"); script.src="https://unpkg.com/@elevenlabs/convai-widget-embed"; script.async=true;
+script.onload=()=>document.getElementById("status").textContent="Widget učitan. Za razgovor odaberite pokretanje poziva.";
+script.onerror=()=>document.getElementById("status").textContent="Widget nije učitan. Pokušajte ponovno ili otvorite stranicu u pregledniku.";
+document.head.appendChild(script);
+if(window.microsoftTeams) microsoftTeams.app.initialize().catch(()=>{});
