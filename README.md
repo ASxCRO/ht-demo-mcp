@@ -23,7 +23,7 @@ Podaci se učitavaju pri pokretanju. Prijave i simulirani outbox zapisi nastali 
 
 ## Demo alati
 Zadržani su postojeći nazivi i parametri za ElevenLabs. Prošireni opcionalni argumenti: search_customers (customerId, firstName, lastName, address, invoiceNumber, contractNumber; najmanje jedan), get_troubleshooting_steps (service, symptom), find_available_employees (category, area), create_support_ticket (customerId, summary, confirmed, category, employeeId). Dodani list_service_catalog i get_support_tickets. Neki odgovori sada sadrže niz zapisa umjesto samo prvog rezultata.
-Primjeri: DEMO-001, DEMO-002, UG-001, RAC-001. search_customers vraća najviše 20 zapisa. Ne predstavlja autentikaciju; sva čitanja koriste isključivo fiktivne zapise.
+Primjeri: DEMO-001 (Ana Anić, Zagreb), DEMO-002 (Marko Horvat, Osijek), UG-001, RAC-001. Imena i prezimena u seedu su izmišljene kombinacije za prirodniji razgovor, ne predstavljaju stvarne osobe ni zaposlenike HT-a; podudarnosti sa stvarnim osobama su slučajne. Identifikatori, adrese i e-mailovi ostaju sintetički. search_customers vraća najviše 20 zapisa. Ne predstavlja autentikaciju; sva čitanja koriste isključivo fiktivne zapise.
 create_support_ticket zahtijeva confirmed=true, sažetak do 500 znakova, poznatog korisnika i dostupnog zaposlenika; automatski stvara simulirani e-mail outbox zapis, EmailSent=false. Nema stvarne dostave niti trajne pohrane. Ne ponavljati automatski poziv koji mijenja stanje.
 Kategorije zaposlenika: internet, mobile, tv, billing, contracts, sales, security, complaints, field, general.
  

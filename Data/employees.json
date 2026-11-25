@@ -1,7 +1,7 @@
 [
   {
     "id": "EMP-001",
-    "name": "Demo djelatnik 001",
+    "name": "Marina Grgić",
     "team": "internet",
     "city": "Sve regije",
     "available": true,
@@ -9,7 +9,7 @@
   },
   {
     "id": "EMP-002",
-    "name": "Demo djelatnik 002",
+    "name": "Igor Lovrek",
     "team": "mobile",
     "city": "Sve regije",
     "available": true,
@@ -17,7 +17,7 @@
   },
   {
     "id": "EMP-003",
-    "name": "Demo djelatnik 003",
+    "name": "Nataša Šimić",
     "team": "tv",
     "city": "Sve regije",
     "available": true,
@@ -25,7 +25,7 @@
   },
   {
     "id": "EMP-004",
-    "name": "Demo djelatnik 004",
+    "name": "Mislav Barić",
     "team": "billing",
     "city": "Sve regije",
     "available": true,
@@ -33,7 +33,7 @@
   },
   {
     "id": "EMP-005",
-    "name": "Demo djelatnik 005",
+    "name": "Tena Kovačić",
     "team": "contracts",
     "city": "Sve regije",
     "available": true,
@@ -41,7 +41,7 @@
   },
   {
     "id": "EMP-006",
-    "name": "Demo djelatnik 006",
+    "name": "Krešimir Vukelić",
     "team": "sales",
     "city": "Sve regije",
     "available": true,
@@ -49,7 +49,7 @@
   },
   {
     "id": "EMP-007",
-    "name": "Demo djelatnik 007",
+    "name": "Dunja Pavičić",
     "team": "security",
     "city": "Sve regije",
     "available": true,
@@ -57,7 +57,7 @@
   },
   {
     "id": "EMP-008",
-    "name": "Demo djelatnik 008",
+    "name": "Siniša Kraljević",
     "team": "complaints",
     "city": "Sve regije",
     "available": true,
@@ -65,7 +65,7 @@
   },
   {
     "id": "EMP-009",
-    "name": "Demo djelatnik 009",
+    "name": "Borna Radoš",
     "team": "field",
     "city": "Sve regije",
     "available": true,
@@ -73,7 +73,7 @@
   },
   {
     "id": "EMP-010",
-    "name": "Demo djelatnik 010",
+    "name": "Helena Brkić",
     "team": "general",
     "city": "Sve regije",
     "available": true,
@@ -81,7 +81,7 @@
   },
   {
     "id": "EMP-011",
-    "name": "Demo djelatnik 011",
+    "name": "Davor Milić",
     "team": "internet",
     "city": "Zagreb",
     "available": true,
@@ -89,7 +89,7 @@
   },
   {
     "id": "EMP-012",
-    "name": "Demo djelatnik 012",
+    "name": "Paula Jelić",
     "team": "mobile",
     "city": "Osijek",
     "available": true,
@@ -97,7 +97,7 @@
   },
   {
     "id": "EMP-013",
-    "name": "Demo djelatnik 013",
+    "name": "Leon Martinović",
     "team": "tv",
     "city": "Požega",
     "available": false,
@@ -105,7 +105,7 @@
   },
   {
     "id": "EMP-014",
-    "name": "Demo djelatnik 014",
+    "name": "Sanja Filipović",
     "team": "billing",
     "city": "Split",
     "available": true,
@@ -113,7 +113,7 @@
   },
   {
     "id": "EMP-015",
-    "name": "Demo djelatnik 015",
+    "name": "Vedrana Jurčević",
     "team": "contracts",
     "city": "Rijeka",
     "available": true,
@@ -121,7 +121,7 @@
   },
   {
     "id": "EMP-016",
-    "name": "Demo djelatnik 016",
+    "name": "Anton Radošević",
     "team": "sales",
     "city": "Zagreb",
     "available": true,
@@ -129,7 +129,7 @@
   },
   {
     "id": "EMP-017",
-    "name": "Demo djelatnik 017",
+    "name": "Ines Kušan",
     "team": "security",
     "city": "Osijek",
     "available": false,
@@ -137,7 +137,7 @@
   },
   {
     "id": "EMP-018",
-    "name": "Demo djelatnik 018",
+    "name": "Neven Vidas",
     "team": "complaints",
     "city": "Požega",
     "available": true,
@@ -145,7 +145,7 @@
   },
   {
     "id": "EMP-019",
-    "name": "Demo djelatnik 019",
+    "name": "Zvonimir Baković",
     "team": "field",
     "city": "Split",
     "available": true,
@@ -153,7 +153,7 @@
   },
   {
     "id": "EMP-020",
-    "name": "Demo djelatnik 020",
+    "name": "Tea Vrdoljak",
     "team": "general",
     "city": "Rijeka",
     "available": true,
