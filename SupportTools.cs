@@ -3,7 +3,7 @@ using System.ComponentModel;
 using ModelContextProtocol.Server;
 
 [McpServerToolType]
-public static class SupportTools
+public sealed class SupportTools
 {
     private record Customer(string Id, string Name, string Tariff, string Service, decimal Balance);
     private static readonly Customer[] Customers = [new("DEMO-001", "Demo korisnik A", "Mobilna M", "Mobilna telefonija", 24.90m), new("DEMO-002", "Demo korisnik B", "Internet L", "Optički internet", 0m)];
