@@ -1,0 +1,402 @@
+[
+  {
+    "id": "SOL-001",
+    "category": "internet",
+    "symptom": "Nema interneta",
+    "question": "Ne radi li internet i na drugim uređajima?",
+    "steps": [
+      "Ako već niste, isključite i ponovno uključite uređaj za internet.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-002",
+    "category": "internet",
+    "symptom": "Povremeni prekidi",
+    "question": "Kada se veza najčešće prekida?",
+    "steps": [
+      "Provjerite događa li se isto i na drugom uređaju.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-003",
+    "category": "internet",
+    "symptom": "Spora veza",
+    "question": "Događa li se to na svim uređajima?",
+    "steps": [
+      "Provjerite radi li bolje u drugoj prostoriji.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-004",
+    "category": "internet",
+    "symptom": "Slab Wi-Fi",
+    "question": "Je li poteškoća ograničena na jednu prostoriju?",
+    "steps": [
+      "Provjerite radi li bolje bliže uređaju za internet.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-005",
+    "category": "internet",
+    "symptom": "Rad od kuće",
+    "question": "Možete li otvoriti bilo koju internetsku stranicu?",
+    "steps": [
+      "Provjerite radi li veza na drugom uređaju.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-006",
+    "category": "internet",
+    "symptom": "Video pozivi se prekidaju",
+    "question": "Događa li se to i tijekom drugih aktivnosti?",
+    "steps": [
+      "Ako možete, provjerite drugi uređaj.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-007",
+    "category": "internet",
+    "symptom": "Internet nakon preseljenja",
+    "question": "Je li usluga na novoj lokaciji već potvrđeno aktivirana?",
+    "steps": [
+      "Potrebna je provjera statusa usluge.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-008",
+    "category": "internet",
+    "symptom": "Svi uređaji bez veze",
+    "question": "Od kada ne radi internet?",
+    "steps": [
+      "Ako ponovno uključivanje nije pomoglo, ponudite dodatnu provjeru.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-009",
+    "category": "internet",
+    "symptom": "Samo jedan uređaj nema veze",
+    "question": "Radi li internet na drugim uređajima?",
+    "steps": [
+      "Pokušajte ponovno povezati taj uređaj.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-010",
+    "category": "internet",
+    "symptom": "Poteškoća nakon nestanka struje",
+    "question": "Je li se napajanje vratilo?",
+    "steps": [
+      "Ako je sigurno, pričekajte da se uređaj za internet ponovno uključi.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-011",
+    "category": "mobile",
+    "symptom": "Nema poziva",
+    "question": "Možete li nazvati drugi broj?",
+    "steps": [
+      "Provjerite je li slučajno uključen način rada u zrakoplovu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-012",
+    "category": "mobile",
+    "symptom": "Ne prima pozive",
+    "question": "Događa li se to sa svim pozivateljima?",
+    "steps": [
+      "Ako još niste, ponovno uključite mobitel.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-013",
+    "category": "mobile",
+    "symptom": "Ne dolaze poruke",
+    "question": "Primjećujete li problem s drugim kontaktima?",
+    "steps": [
+      "Provjerite radi li pozivanje.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-014",
+    "category": "mobile",
+    "symptom": "Mobilni internet ne radi",
+    "question": "Možete li normalno telefonirati?",
+    "steps": [
+      "Provjerite je li uključen mobilni internet.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-015",
+    "category": "mobile",
+    "symptom": "Slab signal",
+    "question": "Događa li se to samo na jednom mjestu?",
+    "steps": [
+      "Provjerite radi li usluga na drugom mjestu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-016",
+    "category": "mobile",
+    "symptom": "Prekidi poziva",
+    "question": "Koliko se često prekida razgovor?",
+    "steps": [
+      "Provjerite pojavljuje li se poteškoća na drugom mjestu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-017",
+    "category": "mobile",
+    "symptom": "Roaming internet",
+    "question": "U kojoj se državi nalazite?",
+    "steps": [
+      "Provjerite uvjete tarife prije uključivanja interneta u inozemstvu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-018",
+    "category": "mobile",
+    "symptom": "Roaming pozivi",
+    "question": "Možete li primiti poziv?",
+    "steps": [
+      "Ako ne radi, potrebna je provjera usluge.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-019",
+    "category": "mobile",
+    "symptom": "Izgubljeni mobitel",
+    "question": "Želite li zaštititi svoj broj?",
+    "steps": [
+      "Uputite na ovlašteni kanal za zaštitu broja; ne tražite kodove.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-020",
+    "category": "mobile",
+    "symptom": "Nova SIM kartica",
+    "question": "Je li aktivacija potvrđena?",
+    "steps": [
+      "Provjerite status kroz ovlašteni kanal.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-021",
+    "category": "tv",
+    "symptom": "Nema slike",
+    "question": "Pojavljuje li se ikakva poruka na televiziji?",
+    "steps": [
+      "Provjerite je li televizor uključen.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-022",
+    "category": "tv",
+    "symptom": "Nema zvuka",
+    "question": "Događa li se na svim programima?",
+    "steps": [
+      "Provjerite je li zvuk slučajno isključen.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-023",
+    "category": "tv",
+    "symptom": "Slika se zamrzava",
+    "question": "Radi li i internet normalno?",
+    "steps": [
+      "Ako već niste, ponovno otvorite aplikaciju.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-024",
+    "category": "tv",
+    "symptom": "Nedostaje program",
+    "question": "Koji program ne možete gledati?",
+    "steps": [
+      "Provjerite uključuje li ga potvrđeni paket.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-025",
+    "category": "tv",
+    "symptom": "Aplikacija ne radi",
+    "question": "Možete li otvoriti aplikaciju?",
+    "steps": [
+      "Ako još niste, zatvorite je i ponovno otvorite.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-026",
+    "category": "tv",
+    "symptom": "Prijava u aplikaciju",
+    "question": "Je li poteškoća u pristupu ili gledanju?",
+    "steps": [
+      "Uputite na službeni postupak obnove pristupa.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-027",
+    "category": "tv",
+    "symptom": "Sadržaj nije dostupan",
+    "question": "O kojem sadržaju je riječ?",
+    "steps": [
+      "Provjerite paket i dostupnost bez obećanja.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-028",
+    "category": "tv",
+    "symptom": "Poteškoća na jednom uređaju",
+    "question": "Radi li na drugom uređaju?",
+    "steps": [
+      "Ako je moguće, ponovno otvorite aplikaciju.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-029",
+    "category": "billing",
+    "symptom": "Veći račun",
+    "question": "Koji dio računa niste očekivali?",
+    "steps": [
+      "Nakon odabira demo zapisa provjerite stavke.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-030",
+    "category": "billing",
+    "symptom": "Plaćeno, ali prikazan dug",
+    "question": "Kada ste obavili uplatu?",
+    "steps": [
+      "Provjerite simulirani status; ne tražite ponovnu uplatu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-031",
+    "category": "billing",
+    "symptom": "Račun nije stigao",
+    "question": "Kako inače dobivate račun?",
+    "steps": [
+      "Uputite na službeni kanal pregleda računa.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-032",
+    "category": "billing",
+    "symptom": "Dvostruka uplata",
+    "question": "Odnosi li se na isti račun?",
+    "steps": [
+      "Ponudite provjeru, bez obećanja povrata.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-033",
+    "category": "contracts",
+    "symptom": "Preseljenje",
+    "question": "Želite li zadržati postojeću uslugu?",
+    "steps": [
+      "Potrebna je provjera dostupnosti i ugovora.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-034",
+    "category": "contracts",
+    "symptom": "Kašnjenje instalacije",
+    "question": "Je li termin već potvrđen?",
+    "steps": [
+      "Ponudite provjeru ili demo prijavu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-035",
+    "category": "contracts",
+    "symptom": "Raskid",
+    "question": "Koju uslugu želite raskinuti?",
+    "steps": [
+      "Objasnite da ovlašteni kanal provjerava ugovorne uvjete.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-036",
+    "category": "sales",
+    "symptom": "Nova tarifa",
+    "question": "Što Vam je važnije: internet, pozivi ili cijena?",
+    "steps": [
+      "Dohvatite demonstracijske tarife.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-037",
+    "category": "security",
+    "symptom": "Sumnjiva poruka",
+    "question": "Jeste li otvorili poveznicu?",
+    "steps": [
+      "Ne otvarajte sumnjive poveznice i ne dijelite kodove.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-038",
+    "category": "security",
+    "symptom": "Sumnja na preuzimanje broja",
+    "question": "Možete li još koristiti svoj broj?",
+    "steps": [
+      "Uputite na ovlašteni sigurnosni kanal.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-039",
+    "category": "complaints",
+    "symptom": "Ponavljajući kvar",
+    "question": "Što je već pokušano?",
+    "steps": [
+      "Ne ponavljajte iscrpljene korake; ponudite demo prijavu.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  },
+  {
+    "id": "SOL-040",
+    "category": "general",
+    "symptom": "Zahtjev za zaposlenikom",
+    "question": "Želite li da se zabilježi demo prijava?",
+    "steps": [
+      "Objasnite da nema stvarnog transfera ni zakazivanja.",
+      "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TKT-001",
+    "customerId": "DEMO-001",
+    "summary": "Sintetički testni predmet 1",
+    "category": "internet",
+    "employeeId": "EMP-001",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-01T10:00:00Z"
+  },
+  {
+    "id": "TKT-002",
+    "customerId": "DEMO-002",
+    "summary": "Sintetički testni predmet 2",
+    "category": "mobile",
+    "employeeId": "EMP-002",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-02T10:00:00Z"
+  },
+  {
+    "id": "TKT-003",
+    "customerId": "DEMO-003",
+    "summary": "Sintetički testni predmet 3",
+    "category": "tv",
+    "employeeId": "EMP-003",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-03T10:00:00Z"
+  },
+  {
+    "id": "TKT-004",
+    "customerId": "DEMO-004",
+    "summary": "Sintetički testni predmet 4",
+    "category": "billing",
+    "employeeId": "EMP-004",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-04T10:00:00Z"
+  },
+  {
+    "id": "TKT-005",
+    "customerId": "DEMO-005",
+    "summary": "Sintetički testni predmet 5",
+    "category": "contracts",
+    "employeeId": "EMP-005",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-05T10:00:00Z"
+  },
+  {
+    "id": "TKT-006",
+    "customerId": "DEMO-006",
+    "summary": "Sintetički testni predmet 6",
+    "category": "sales",
+    "employeeId": "EMP-006",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "TKT-007",
+    "customerId": "DEMO-007",
+    "summary": "Sintetički testni predmet 7",
+    "category": "security",
+    "employeeId": "EMP-007",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-07T10:00:00Z"
+  },
+  {
+    "id": "TKT-008",
+    "customerId": "DEMO-008",
+    "summary": "Sintetički testni predmet 8",
+    "category": "complaints",
+    "employeeId": "EMP-008",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-08T10:00:00Z"
+  },
+  {
+    "id": "TKT-009",
+    "customerId": "DEMO-009",
+    "summary": "Sintetički testni predmet 9",
+    "category": "field",
+    "employeeId": "EMP-009",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-09T10:00:00Z"
+  },
+  {
+    "id": "TKT-010",
+    "customerId": "DEMO-010",
+    "summary": "Sintetički testni predmet 10",
+    "category": "general",
+    "employeeId": "EMP-010",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "TKT-011",
+    "customerId": "DEMO-011",
+    "summary": "Sintetički testni predmet 11",
+    "category": "internet",
+    "employeeId": "EMP-001",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-11T10:00:00Z"
+  },
+  {
+    "id": "TKT-012",
+    "customerId": "DEMO-012",
+    "summary": "Sintetički testni predmet 12",
+    "category": "mobile",
+    "employeeId": "EMP-002",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-12T10:00:00Z"
+  },
+  {
+    "id": "TKT-013",
+    "customerId": "DEMO-013",
+    "summary": "Sintetički testni predmet 13",
+    "category": "tv",
+    "employeeId": "EMP-003",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-13T10:00:00Z"
+  },
+  {
+    "id": "TKT-014",
+    "customerId": "DEMO-014",
+    "summary": "Sintetički testni predmet 14",
+    "category": "billing",
+    "employeeId": "EMP-004",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-14T10:00:00Z"
+  },
+  {
+    "id": "TKT-015",
+    "customerId": "DEMO-015",
+    "summary": "Sintetički testni predmet 15",
+    "category": "contracts",
+    "employeeId": "EMP-005",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-15T10:00:00Z"
+  },
+  {
+    "id": "TKT-016",
+    "customerId": "DEMO-016",
+    "summary": "Sintetički testni predmet 16",
+    "category": "sales",
+    "employeeId": "EMP-006",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-16T10:00:00Z"
+  },
+  {
+    "id": "TKT-017",
+    "customerId": "DEMO-017",
+    "summary": "Sintetički testni predmet 17",
+    "category": "security",
+    "employeeId": "EMP-007",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-17T10:00:00Z"
+  },
+  {
+    "id": "TKT-018",
+    "customerId": "DEMO-018",
+    "summary": "Sintetički testni predmet 18",
+    "category": "complaints",
+    "employeeId": "EMP-008",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-18T10:00:00Z"
+  },
+  {
+    "id": "TKT-019",
+    "customerId": "DEMO-019",
+    "summary": "Sintetički testni predmet 19",
+    "category": "field",
+    "employeeId": "EMP-009",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-19T10:00:00Z"
+  },
+  {
+    "id": "TKT-020",
+    "customerId": "DEMO-020",
+    "summary": "Sintetički testni predmet 20",
+    "category": "general",
+    "employeeId": "EMP-010",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "TKT-021",
+    "customerId": "DEMO-021",
+    "summary": "Sintetički testni predmet 21",
+    "category": "internet",
+    "employeeId": "EMP-001",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-21T10:00:00Z"
+  },
+  {
+    "id": "TKT-022",
+    "customerId": "DEMO-022",
+    "summary": "Sintetički testni predmet 22",
+    "category": "mobile",
+    "employeeId": "EMP-002",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-22T10:00:00Z"
+  },
+  {
+    "id": "TKT-023",
+    "customerId": "DEMO-023",
+    "summary": "Sintetički testni predmet 23",
+    "category": "tv",
+    "employeeId": "EMP-003",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-23T10:00:00Z"
+  },
+  {
+    "id": "TKT-024",
+    "customerId": "DEMO-024",
+    "summary": "Sintetički testni predmet 24",
+    "category": "billing",
+    "employeeId": "EMP-004",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-24T10:00:00Z"
+  },
+  {
+    "id": "TKT-025",
+    "customerId": "DEMO-025",
+    "summary": "Sintetički testni predmet 25",
+    "category": "contracts",
+    "employeeId": "EMP-005",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-01T10:00:00Z"
+  },
+  {
+    "id": "TKT-026",
+    "customerId": "DEMO-026",
+    "summary": "Sintetički testni predmet 26",
+    "category": "sales",
+    "employeeId": "EMP-006",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-02T10:00:00Z"
+  },
+  {
+    "id": "TKT-027",
+    "customerId": "DEMO-027",
+    "summary": "Sintetički testni predmet 27",
+    "category": "security",
+    "employeeId": "EMP-007",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-03T10:00:00Z"
+  },
+  {
+    "id": "TKT-028",
+    "customerId": "DEMO-028",
+    "summary": "Sintetički testni predmet 28",
+    "category": "complaints",
+    "employeeId": "EMP-008",
+    "status": "Riješeno",
+    "demo": true,
+    "createdAt": "2026-11-04T10:00:00Z"
+  },
+  {
+    "id": "TKT-029",
+    "customerId": "DEMO-029",
+    "summary": "Sintetički testni predmet 29",
+    "category": "field",
+    "employeeId": "EMP-009",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-05T10:00:00Z"
+  },
+  {
+    "id": "TKT-030",
+    "customerId": "DEMO-030",
+    "summary": "Sintetički testni predmet 30",
+    "category": "general",
+    "employeeId": "EMP-010",
+    "status": "Otvoreno",
+    "demo": true,
+    "createdAt": "2026-11-06T10:00:00Z"
+  }
+]

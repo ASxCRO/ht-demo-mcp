@@ -1,0 +1,162 @@
+[
+  {
+    "id": "EMP-001",
+    "name": "Demo djelatnik 001",
+    "team": "internet",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee001@example.invalid"
+  },
+  {
+    "id": "EMP-002",
+    "name": "Demo djelatnik 002",
+    "team": "mobile",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee002@example.invalid"
+  },
+  {
+    "id": "EMP-003",
+    "name": "Demo djelatnik 003",
+    "team": "tv",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee003@example.invalid"
+  },
+  {
+    "id": "EMP-004",
+    "name": "Demo djelatnik 004",
+    "team": "billing",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee004@example.invalid"
+  },
+  {
+    "id": "EMP-005",
+    "name": "Demo djelatnik 005",
+    "team": "contracts",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee005@example.invalid"
+  },
+  {
+    "id": "EMP-006",
+    "name": "Demo djelatnik 006",
+    "team": "sales",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee006@example.invalid"
+  },
+  {
+    "id": "EMP-007",
+    "name": "Demo djelatnik 007",
+    "team": "security",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee007@example.invalid"
+  },
+  {
+    "id": "EMP-008",
+    "name": "Demo djelatnik 008",
+    "team": "complaints",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee008@example.invalid"
+  },
+  {
+    "id": "EMP-009",
+    "name": "Demo djelatnik 009",
+    "team": "field",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee009@example.invalid"
+  },
+  {
+    "id": "EMP-010",
+    "name": "Demo djelatnik 010",
+    "team": "general",
+    "city": "Sve regije",
+    "available": true,
+    "email": "employee010@example.invalid"
+  },
+  {
+    "id": "EMP-011",
+    "name": "Demo djelatnik 011",
+    "team": "internet",
+    "city": "Zagreb",
+    "available": true,
+    "email": "employee011@example.invalid"
+  },
+  {
+    "id": "EMP-012",
+    "name": "Demo djelatnik 012",
+    "team": "mobile",
+    "city": "Osijek",
+    "available": true,
+    "email": "employee012@example.invalid"
+  },
+  {
+    "id": "EMP-013",
+    "name": "Demo djelatnik 013",
+    "team": "tv",
+    "city": "Požega",
+    "available": false,
+    "email": "employee013@example.invalid"
+  },
+  {
+    "id": "EMP-014",
+    "name": "Demo djelatnik 014",
+    "team": "billing",
+    "city": "Split",
+    "available": true,
+    "email": "employee014@example.invalid"
+  },
+  {
+    "id": "EMP-015",
+    "name": "Demo djelatnik 015",
+    "team": "contracts",
+    "city": "Rijeka",
+    "available": true,
+    "email": "employee015@example.invalid"
+  },
+  {
+    "id": "EMP-016",
+    "name": "Demo djelatnik 016",
+    "team": "sales",
+    "city": "Zagreb",
+    "available": true,
+    "email": "employee016@example.invalid"
+  },
+  {
+    "id": "EMP-017",
+    "name": "Demo djelatnik 017",
+    "team": "security",
+    "city": "Osijek",
+    "available": false,
+    "email": "employee017@example.invalid"
+  },
+  {
+    "id": "EMP-018",
+    "name": "Demo djelatnik 018",
+    "team": "complaints",
+    "city": "Požega",
+    "available": true,
+    "email": "employee018@example.invalid"
+  },
+  {
+    "id": "EMP-019",
+    "name": "Demo djelatnik 019",
+    "team": "field",
+    "city": "Split",
+    "available": true,
+    "email": "employee019@example.invalid"
+  },
+  {
+    "id": "EMP-020",
+    "name": "Demo djelatnik 020",
+    "team": "general",
+    "city": "Rijeka",
+    "available": true,
+    "email": "employee020@example.invalid"
+  }
+]

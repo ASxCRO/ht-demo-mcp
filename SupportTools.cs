@@ -1,39 +1,35 @@
-using System.Collections.Concurrent;
 using System.ComponentModel;
+using HtDemoMcp.Repositories;
+using HtDemoMcp.Services;
 using ModelContextProtocol.Server;
 
 [McpServerToolType]
 public sealed class SupportTools
 {
-    private record Customer(string Id, string Name, string Tariff, string Service, decimal Balance);
-    private static readonly Customer[] Customers = [new("DEMO-001", "Demo korisnik A", "Mobilna M", "Mobilna telefonija", 24.90m), new("DEMO-002", "Demo korisnik B", "Internet L", "Optički internet", 0m)];
-    private static readonly ConcurrentDictionary<string, object> Tickets = new();
-    private static Customer Find(string customerId) => Customers.FirstOrDefault(c => c.Id.Equals(customerId, StringComparison.OrdinalIgnoreCase)) ?? throw new ArgumentException("Demo korisnik nije pronađen.");
-    [McpServerTool(Name = "search_customers"), Description("Pronađi fiktivnog korisnika po demo identifikatoru. Ne koristi stvarne osobne podatke.")]
-    public static object SearchCustomers(string customerId) => Customers.Where(c => c.Id.Equals(customerId, StringComparison.OrdinalIgnoreCase)).Select(c => new { c.Id, c.Name }).ToArray();
+    private static readonly InMemoryDemoRepository Repository = new();
+    private static readonly DemoSupportService Support = new(Repository);
+    public static void Initialize() => _ = Repository.Customers.Count;
+
+    [McpServerTool(Name = "search_customers"), Description("Pretraži isključivo sintetičke demo zapise prema ID-u, demo imenu, prezimenu, adresi, broju računa ili ugovora. Ne unositi stvarne osobne podatke.")]
+    public static object SearchCustomers(string? customerId = null, string? firstName = null, string? lastName = null, string? address = null, string? invoiceNumber = null, string? contractNumber = null) => Support.Search(customerId, firstName, lastName, address, invoiceNumber, contractNumber);
     [McpServerTool(Name = "get_customer_contracts"), Description("Vrati fiktivne ugovore demo korisnika.")]
-    public static object GetContracts(string customerId) { var c = Find(customerId); return new { c.Id, c.Tariff, Status = "Aktivan", Demo = true }; }
-    [McpServerTool(Name = "get_invoices"), Description("Vrati simulirani iznos nepodmirenih računa.")]
-    public static object GetInvoices(string customerId) { var c = Find(customerId); return new { c.Id, OutstandingEur = c.Balance, Currency = "EUR", Demo = true }; }
+    public static object GetContracts(string customerId) => Support.Contracts(customerId);
+    [McpServerTool(Name = "get_invoices"), Description("Vrati simulirane račune, iznose i status plaćanja demo korisnika.")]
+    public static object GetInvoices(string customerId) => Support.Invoices(customerId);
     [McpServerTool(Name = "get_tariffs"), Description("Prikaži izmišljene tarife i cijene; nisu službene ponude HT-a.")]
-    public static object GetTariffs() => new[] { new { Name = "Mobilna M", MonthlyEur = 24.90m }, new { Name = "Internet L", MonthlyEur = 34.90m } };
-    [McpServerTool(Name = "get_services"), Description("Prikaži simulirane aktivne usluge demo korisnika.")]
-    public static object GetServices(string customerId) { var c = Find(customerId); return new { c.Id, c.Service, Status = "Aktivna" }; }
-    [McpServerTool(Name = "get_troubleshooting_steps"), Description("Vrati osnovne upute za internet ili mobilnu uslugu.")]
-    public static string[] Troubleshoot(string service) => service.Contains("internet", StringComparison.OrdinalIgnoreCase) ? ["Provjeri napajanje i kabele.", "Ponovno pokreni usmjerivač.", "Testiraj vezu na drugom uređaju.", "Ako problem ostane, ponudi tehničku podršku."] : ["Provjeri način rada u zrakoplovu i signal.", "Ponovno pokreni uređaj.", "Ako problem ostane, ponudi tehničku podršku."];
-    [McpServerTool(Name = "check_service_outage"), Description("Simulacija provjere izvanrednog stanja; ne daje stvarni status mreže.")]
-    public static object CheckOutage(string area) => new { Area = area, Outage = false, Demo = true, Note = "Simulirani rezultat; stvarni status nije provjeren." };
-    [McpServerTool(Name = "find_available_employees"), Description("Vrati fiktivni tim za eskalaciju, bez stvarnog transfera poziva.")]
-    public static object FindEmployees() => new { Team = "Demo tehnička podrška", Available = true, TransferImplemented = false };
-    [McpServerTool(Name = "create_support_ticket"), Description("Nakon potvrde korisnika zapiši demo prijavu u privremenu memoriju. Ne unositi stvarne osobne podatke.")]
-    public static object CreateTicket(string customerId, string summary, bool confirmed) {
-        Find(customerId);
-        if (!confirmed) throw new ArgumentException("Potrebna je potvrda korisnika.");
-        if (string.IsNullOrWhiteSpace(summary) || summary.Length > 500) throw new ArgumentException("Sažetak mora imati 1–500 znakova.");
-        if (Tickets.Count >= 1000) throw new InvalidOperationException("Demo limit prijava je dosegnut.");
-        var id = $"DEMO-{Guid.NewGuid():N}";
-        var ticket = new { Id = id, CustomerId = customerId, Summary = summary, Status = "Otvoreno", Demo = true, CreatedAt = DateTimeOffset.UtcNow };
-        Tickets.TryAdd(id, ticket);
-        return ticket;
-    }
+    public static object GetTariffs() => Support.Tariffs();
+    [McpServerTool(Name = "get_services"), Description("Prikaži simulirane aktivne usluge demo korisnika i njihove statuse.")]
+    public static object GetServices(string customerId) => Support.Services(customerId);
+    [McpServerTool(Name = "list_service_catalog"), Description("Prikaži javni sintetički katalog demo usluga.")]
+    public static object ListServiceCatalog() => Support.ServiceCatalog();
+    [McpServerTool(Name = "get_troubleshooting_steps"), Description("Vrati jednostavne laičke korake za demo poteškoću s uslugom; opcionalno navedi simptom.")]
+    public static object Troubleshoot(string service, string? symptom = null) => Support.Troubleshoot(service, symptom);
+    [McpServerTool(Name = "check_service_outage"), Description("Provjeri isključivo simulirano stanje na demo području; nije stvarni status mreže.")]
+    public static object CheckOutage(string area) => Support.Outage(area);
+    [McpServerTool(Name = "find_available_employees"), Description("Dohvati dostupne fiktivne zaposlenike po kategoriji i području, bez stvarnog transfera poziva.")]
+    public static object FindEmployees(string? category = null, string? area = null) => Support.Employees(category, area);
+    [McpServerTool(Name = "create_support_ticket"), Description("Nakon potvrde korisnika kreiraj demo prijavu i simulirani e-mail outbox zapis. Nikakva stvarna poruka se ne šalje.")]
+    public static object CreateTicket(string customerId, string summary, bool confirmed, string? category = null, string? employeeId = null) => Support.CreateTicket(customerId, summary, confirmed, category, employeeId);
+    [McpServerTool(Name = "get_support_tickets"), Description("Vrati postojeće simulirane prijave odabranog demo korisnika.")]
+    public static object GetTickets(string customerId) => Support.Tickets(customerId);
 }

@@ -9,6 +9,7 @@ var apiKey = builder.Configuration["MCP_API_KEY"];
 if (string.IsNullOrWhiteSpace(apiKey) || apiKey.Length < 32)
     throw new InvalidOperationException("Set MCP_API_KEY to a random secret of at least 32 characters.");
 builder.Services.AddMcpServer().WithHttpTransport(o => o.Stateless = true).WithTools<SupportTools>();
+SupportTools.Initialize(); // Fail fast if demo seed data is missing or invalid.
 var app = builder.Build();
 var expectedHash = SHA256.HashData(Encoding.UTF8.GetBytes("Bearer " + apiKey));
 app.Use(async (context, next) => {

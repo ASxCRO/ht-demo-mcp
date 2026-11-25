@@ -1,0 +1,92 @@
+[
+  {
+    "id": "TAR-001",
+    "name": "Mobilna M",
+    "monthlyEur": 24.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-002",
+    "name": "Internet L",
+    "monthlyEur": 34.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-003",
+    "name": "Mobilna S",
+    "monthlyEur": 14.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-004",
+    "name": "Mobilna XL",
+    "monthlyEur": 39.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-005",
+    "name": "Internet S",
+    "monthlyEur": 19.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-006",
+    "name": "Internet M",
+    "monthlyEur": 29.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-007",
+    "name": "Internet XL",
+    "monthlyEur": 44.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-008",
+    "name": "TV Osnovni",
+    "monthlyEur": 9.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-009",
+    "name": "TV Plus",
+    "monthlyEur": 19.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-010",
+    "name": "Internet + TV",
+    "monthlyEur": 49.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-011",
+    "name": "Mobilna + Internet",
+    "monthlyEur": 54.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-012",
+    "name": "Obiteljski paket",
+    "monthlyEur": 69.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-013",
+    "name": "Roaming dodatak",
+    "monthlyEur": 5.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-014",
+    "name": "Bonovi S",
+    "monthlyEur": 9.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  },
+  {
+    "id": "TAR-015",
+    "name": "Poslovni demo",
+    "monthlyEur": 59.9,
+    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "DEMO-001",
+    "firstName": "Demo001",
+    "lastName": "Testni001",
+    "name": "Demo korisnik A",
+    "address": "Izmišljena demo adresa 1",
+    "city": "Zagreb",
+    "email": "customer001@example.invalid"
+  },
+  {
+    "id": "DEMO-002",
+    "firstName": "Demo002",
+    "lastName": "Testni002",
+    "name": "Demo korisnik B",
+    "address": "Izmišljena demo adresa 2",
+    "city": "Osijek",
+    "email": "customer002@example.invalid"
+  },
+  {
+    "id": "DEMO-003",
+    "firstName": "Demo003",
+    "lastName": "Testni003",
+    "name": "Demo003 Testni003",
+    "address": "Izmišljena demo adresa 3",
+    "city": "Požega",
+    "email": "customer003@example.invalid"
+  },
+  {
+    "id": "DEMO-004",
+    "firstName": "Demo004",
+    "lastName": "Testni004",
+    "name": "Demo004 Testni004",
+    "address": "Izmišljena demo adresa 4",
+    "city": "Split",
+    "email": "customer004@example.invalid"
+  },
+  {
+    "id": "DEMO-005",
+    "firstName": "Demo005",
+    "lastName": "Testni005",
+    "name": "Demo005 Testni005",
+    "address": "Izmišljena demo adresa 5",
+    "city": "Rijeka",
+    "email": "customer005@example.invalid"
+  },
+  {
+    "id": "DEMO-006",
+    "firstName": "Demo006",
+    "lastName": "Testni006",
+    "name": "Demo006 Testni006",
+    "address": "Izmišljena demo adresa 6",
+    "city": "Zagreb",
+    "email": "customer006@example.invalid"
+  },
+  {
+    "id": "DEMO-007",
+    "firstName": "Demo007",
+    "lastName": "Testni007",
+    "name": "Demo007 Testni007",
+    "address": "Izmišljena demo adresa 7",
+    "city": "Osijek",
+    "email": "customer007@example.invalid"
+  },
+  {
+    "id": "DEMO-008",
+    "firstName": "Demo008",
+    "lastName": "Testni008",
+    "name": "Demo008 Testni008",
+    "address": "Izmišljena demo adresa 8",
+    "city": "Požega",
+    "email": "customer008@example.invalid"
+  },
+  {
+    "id": "DEMO-009",
+    "firstName": "Demo009",
+    "lastName": "Testni009",
+    "name": "Demo009 Testni009",
+    "address": "Izmišljena demo adresa 9",
+    "city": "Split",
+    "email": "customer009@example.invalid"
+  },
+  {
+    "id": "DEMO-010",
+    "firstName": "Demo010",
+    "lastName": "Testni010",
+    "name": "Demo010 Testni010",
+    "address": "Izmišljena demo adresa 10",
+    "city": "Rijeka",
+    "email": "customer010@example.invalid"
+  },
+  {
+    "id": "DEMO-011",
+    "firstName": "Demo011",
+    "lastName": "Testni011",
+    "name": "Demo011 Testni011",
+    "address": "Izmišljena demo adresa 11",
+    "city": "Zagreb",
+    "email": "customer011@example.invalid"
+  },
+  {
+    "id": "DEMO-012",
+    "firstName": "Demo012",
+    "lastName": "Testni012",
+    "name": "Demo012 Testni012",
+    "address": "Izmišljena demo adresa 12",
+    "city": "Osijek",
+    "email": "customer012@example.invalid"
+  },
+  {
+    "id": "DEMO-013",
+    "firstName": "Demo013",
+    "lastName": "Testni013",
+    "name": "Demo013 Testni013",
+    "address": "Izmišljena demo adresa 13",
+    "city": "Požega",
+    "email": "customer013@example.invalid"
+  },
+  {
+    "id": "DEMO-014",
+    "firstName": "Demo014",
+    "lastName": "Testni014",
+    "name": "Demo014 Testni014",
+    "address": "Izmišljena demo adresa 14",
+    "city": "Split",
+    "email": "customer014@example.invalid"
+  },
+  {
+    "id": "DEMO-015",
+    "firstName": "Demo015",
+    "lastName": "Testni015",
+    "name": "Demo015 Testni015",
+    "address": "Izmišljena demo adresa 15",
+    "city": "Rijeka",
+    "email": "customer015@example.invalid"
+  },
+  {
+    "id": "DEMO-016",
+    "firstName": "Demo016",
+    "lastName": "Testni016",
+    "name": "Demo016 Testni016",
+    "address": "Izmišljena demo adresa 16",
+    "city": "Zagreb",
+    "email": "customer016@example.invalid"
+  },
+  {
+    "id": "DEMO-017",
+    "firstName": "Demo017",
+    "lastName": "Testni017",
+    "name": "Demo017 Testni017",
+    "address": "Izmišljena demo adresa 17",
+    "city": "Osijek",
+    "email": "customer017@example.invalid"
+  },
+  {
+    "id": "DEMO-018",
+    "firstName": "Demo018",
+    "lastName": "Testni018",
+    "name": "Demo018 Testni018",
+    "address": "Izmišljena demo adresa 18",
+    "city": "Požega",
+    "email": "customer018@example.invalid"
+  },
+  {
+    "id": "DEMO-019",
+    "firstName": "Demo019",
+    "lastName": "Testni019",
+    "name": "Demo019 Testni019",
+    "address": "Izmišljena demo adresa 19",
+    "city": "Split",
+    "email": "customer019@example.invalid"
+  },
+  {
+    "id": "DEMO-020",
+    "firstName": "Demo020",
+    "lastName": "Testni020",
+    "name": "Demo020 Testni020",
+    "address": "Izmišljena demo adresa 20",
+    "city": "Rijeka",
+    "email": "customer020@example.invalid"
+  },
+  {
+    "id": "DEMO-021",
+    "firstName": "Demo021",
+    "lastName": "Testni021",
+    "name": "Demo021 Testni021",
+    "address": "Izmišljena demo adresa 21",
+    "city": "Zagreb",
+    "email": "customer021@example.invalid"
+  },
+  {
+    "id": "DEMO-022",
+    "firstName": "Demo022",
+    "lastName": "Testni022",
+    "name": "Demo022 Testni022",
+    "address": "Izmišljena demo adresa 22",
+    "city": "Osijek",
+    "email": "customer022@example.invalid"
+  },
+  {
+    "id": "DEMO-023",
+    "firstName": "Demo023",
+    "lastName": "Testni023",
+    "name": "Demo023 Testni023",
+    "address": "Izmišljena demo adresa 23",
+    "city": "Požega",
+    "email": "customer023@example.invalid"
+  },
+  {
+    "id": "DEMO-024",
+    "firstName": "Demo024",
+    "lastName": "Testni001",
+    "name": "Demo024 Testni001",
+    "address": "Izmišljena demo adresa 24",
+    "city": "Split",
+    "email": "customer024@example.invalid"
+  },
+  {
+    "id": "DEMO-025",
+    "firstName": "Demo025",
+    "lastName": "Testni002",
+    "name": "Demo025 Testni002",
+    "address": "Izmišljena demo adresa 25",
+    "city": "Rijeka",
+    "email": "customer025@example.invalid"
+  },
+  {
+    "id": "DEMO-026",
+    "firstName": "Demo026",
+    "lastName": "Testni003",
+    "name": "Demo026 Testni003",
+    "address": "Izmišljena demo adresa 26",
+    "city": "Zagreb",
+    "email": "customer026@example.invalid"
+  },
+  {
+    "id": "DEMO-027",
+    "firstName": "Demo027",
+    "lastName": "Testni004",
+    "name": "Demo027 Testni004",
+    "address": "Izmišljena demo adresa 27",
+    "city": "Osijek",
+    "email": "customer027@example.invalid"
+  },
+  {
+    "id": "DEMO-028",
+    "firstName": "Demo028",
+    "lastName": "Testni005",
+    "name": "Demo028 Testni005",
+    "address": "Izmišljena demo adresa 28",
+    "city": "Požega",
+    "email": "customer028@example.invalid"
+  },
+  {
+    "id": "DEMO-029",
+    "firstName": "Demo029",
+    "lastName": "Testni006",
+    "name": "Demo029 Testni006",
+    "address": "Izmišljena demo adresa 29",
+    "city": "Split",
+    "email": "customer029@example.invalid"
+  },
+  {
+    "id": "DEMO-030",
+    "firstName": "Demo030",
+    "lastName": "Testni007",
+    "name": "Demo030 Testni007",
+    "address": "Izmišljena demo adresa 30",
+    "city": "Rijeka",
+    "email": "customer030@example.invalid"
+  },
+  {
+    "id": "DEMO-031",
+    "firstName": "Demo031",
+    "lastName": "Testni008",
+    "name": "Demo031 Testni008",
+    "address": "Izmišljena demo adresa 31",
+    "city": "Zagreb",
+    "email": "customer031@example.invalid"
+  },
+  {
+    "id": "DEMO-032",
+    "firstName": "Demo032",
+    "lastName": "Testni009",
+    "name": "Demo032 Testni009",
+    "address": "Izmišljena demo adresa 32",
+    "city": "Osijek",
+    "email": "customer032@example.invalid"
+  },
+  {
+    "id": "DEMO-033",
+    "firstName": "Demo033",
+    "lastName": "Testni010",
+    "name": "Demo033 Testni010",
+    "address": "Izmišljena demo adresa 33",
+    "city": "Požega",
+    "email": "customer033@example.invalid"
+  },
+  {
+    "id": "DEMO-034",
+    "firstName": "Demo034",
+    "lastName": "Testni011",
+    "name": "Demo034 Testni011",
+    "address": "Izmišljena demo adresa 34",
+    "city": "Split",
+    "email": "customer034@example.invalid"
+  },
+  {
+    "id": "DEMO-035",
+    "firstName": "Demo035",
+    "lastName": "Testni012",
+    "name": "Demo035 Testni012",
+    "address": "Izmišljena demo adresa 35",
+    "city": "Rijeka",
+    "email": "customer035@example.invalid"
+  },
+  {
+    "id": "DEMO-036",
+    "firstName": "Demo036",
+    "lastName": "Testni013",
+    "name": "Demo036 Testni013",
+    "address": "Izmišljena demo adresa 36",
+    "city": "Zagreb",
+    "email": "customer036@example.invalid"
+  },
+  {
+    "id": "DEMO-037",
+    "firstName": "Demo037",
+    "lastName": "Testni014",
+    "name": "Demo037 Testni014",
+    "address": "Izmišljena demo adresa 37",
+    "city": "Osijek",
+    "email": "customer037@example.invalid"
+  },
+  {
+    "id": "DEMO-038",
+    "firstName": "Demo038",
+    "lastName": "Testni015",
+    "name": "Demo038 Testni015",
+    "address": "Izmišljena demo adresa 38",
+    "city": "Požega",
+    "email": "customer038@example.invalid"
+  },
+  {
+    "id": "DEMO-039",
+    "firstName": "Demo039",
+    "lastName": "Testni016",
+    "name": "Demo039 Testni016",
+    "address": "Izmišljena demo adresa 39",
+    "city": "Split",
+    "email": "customer039@example.invalid"
+  },
+  {
+    "id": "DEMO-040",
+    "firstName": "Demo040",
+    "lastName": "Testni017",
+    "name": "Demo040 Testni017",
+    "address": "Izmišljena demo adresa 40",
+    "city": "Rijeka",
+    "email": "customer040@example.invalid"
+  },
+  {
+    "id": "DEMO-041",
+    "firstName": "Demo041",
+    "lastName": "Testni018",
+    "name": "Demo041 Testni018",
+    "address": "Izmišljena demo adresa 41",
+    "city": "Zagreb",
+    "email": "customer041@example.invalid"
+  },
+  {
+    "id": "DEMO-042",
+    "firstName": "Demo042",
+    "lastName": "Testni019",
+    "name": "Demo042 Testni019",
+    "address": "Izmišljena demo adresa 42",
+    "city": "Osijek",
+    "email": "customer042@example.invalid"
+  },
+  {
+    "id": "DEMO-043",
+    "firstName": "Demo043",
+    "lastName": "Testni020",
+    "name": "Demo043 Testni020",
+    "address": "Izmišljena demo adresa 43",
+    "city": "Požega",
+    "email": "customer043@example.invalid"
+  },
+  {
+    "id": "DEMO-044",
+    "firstName": "Demo044",
+    "lastName": "Testni021",
+    "name": "Demo044 Testni021",
+    "address": "Izmišljena demo adresa 44",
+    "city": "Split",
+    "email": "customer044@example.invalid"
+  },
+  {
+    "id": "DEMO-045",
+    "firstName": "Demo045",
+    "lastName": "Testni022",
+    "name": "Demo045 Testni022",
+    "address": "Izmišljena demo adresa 45",
+    "city": "Rijeka",
+    "email": "customer045@example.invalid"
+  },
+  {
+    "id": "DEMO-046",
+    "firstName": "Demo046",
+    "lastName": "Testni023",
+    "name": "Demo046 Testni023",
+    "address": "Izmišljena demo adresa 46",
+    "city": "Zagreb",
+    "email": "customer046@example.invalid"
+  },
+  {
+    "id": "DEMO-047",
+    "firstName": "Demo047",
+    "lastName": "Testni001",
+    "name": "Demo047 Testni001",
+    "address": "Izmišljena demo adresa 47",
+    "city": "Osijek",
+    "email": "customer047@example.invalid"
+  },
+  {
+    "id": "DEMO-048",
+    "firstName": "Demo048",
+    "lastName": "Testni002",
+    "name": "Demo048 Testni002",
+    "address": "Izmišljena demo adresa 48",
+    "city": "Požega",
+    "email": "customer048@example.invalid"
+  },
+  {
+    "id": "DEMO-049",
+    "firstName": "Demo049",
+    "lastName": "Testni003",
+    "name": "Demo049 Testni003",
+    "address": "Izmišljena demo adresa 49",
+    "city": "Split",
+    "email": "customer049@example.invalid"
+  },
+  {
+    "id": "DEMO-050",
+    "firstName": "Demo050",
+    "lastName": "Testni004",
+    "name": "Demo050 Testni004",
+    "address": "Izmišljena demo adresa 50",
+    "city": "Rijeka",
+    "email": "customer050@example.invalid"
+  }
+]

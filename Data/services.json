@@ -1,0 +1,102 @@
+[
+  {
+    "id": "SVC-001",
+    "name": "Mobilna telefonija",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-002",
+    "name": "Optički internet",
+    "category": "internet"
+  },
+  {
+    "id": "SVC-003",
+    "name": "Kućni internet",
+    "category": "internet"
+  },
+  {
+    "id": "SVC-004",
+    "name": "MAXtv",
+    "category": "tv"
+  },
+  {
+    "id": "SVC-005",
+    "name": "Fiksni telefon",
+    "category": "internet"
+  },
+  {
+    "id": "SVC-006",
+    "name": "Mobilni internet",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-007",
+    "name": "Roaming",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-008",
+    "name": "Dodatni TV paket",
+    "category": "tv"
+  },
+  {
+    "id": "SVC-009",
+    "name": "Dodatni internet",
+    "category": "internet"
+  },
+  {
+    "id": "SVC-010",
+    "name": "Glasovne usluge",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-011",
+    "name": "SMS",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-012",
+    "name": "Digitalni SIM",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-013",
+    "name": "Obiteljska opcija",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-014",
+    "name": "TV aplikacija",
+    "category": "tv"
+  },
+  {
+    "id": "SVC-015",
+    "name": "Sportski sadržaj",
+    "category": "tv"
+  },
+  {
+    "id": "SVC-016",
+    "name": "Filmski sadržaj",
+    "category": "tv"
+  },
+  {
+    "id": "SVC-017",
+    "name": "Dječji sadržaj",
+    "category": "tv"
+  },
+  {
+    "id": "SVC-018",
+    "name": "Kućni Wi-Fi",
+    "category": "internet"
+  },
+  {
+    "id": "SVC-019",
+    "name": "Poslovna telefonija",
+    "category": "mobile"
+  },
+  {
+    "id": "SVC-020",
+    "name": "Govorna pošta",
+    "category": "mobile"
+  }
+]
