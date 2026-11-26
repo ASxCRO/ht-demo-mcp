@@ -8,7 +8,8 @@ public sealed class SupportTools
 {
     private static readonly InMemoryCustomerRepository Repository = new();
     private static readonly CustomerSupportService Support = new(Repository);
-    public static void Initialize() => _ = Repository.Customers.Count;
+    private static readonly RelocationService Relocation = new(Repository);
+    public static void Initialize() { _ = Repository.Customers.Count; _ = Relocation; }
 
     [McpServerTool(Name = "search_customers"), Description("Pretraži zapise interne evidencije prema korisničkoj oznaci, imenu, prezimenu, adresi, broju računa ili ugovora. Evidencija sadrži sintetičke podatke; ne unositi stvarne osobne podatke.")]
     public static object SearchCustomers(string? customerId = null, string? firstName = null, string? lastName = null, string? address = null, string? invoiceNumber = null, string? contractNumber = null) => Support.Search(customerId, firstName, lastName, address, invoiceNumber, contractNumber);
@@ -32,4 +33,17 @@ public sealed class SupportTools
     public static object CreateTicket(string customerId, string summary, bool confirmed, string? category = null, string? employeeId = null) => Support.CreateTicket(customerId, summary, confirmed, category, employeeId);
     [McpServerTool(Name = "get_support_tickets"), Description("Dohvati prijave odabranog korisnika iz interne evidencije.")]
     public static object GetTickets(string customerId) => Support.Tickets(customerId);
+
+    [McpServerTool(Name = "check_address_availability"), Description("Look up the exact supplied synthetic destination in internal coverage inventory. Unknown or survey-required address returns review_required; not live network coverage.")]
+    public static object CheckAvailability(string address) => Relocation.Availability(address);
+    [McpServerTool(Name = "check_relocation_eligibility"), Description("After account selection, check active home internet contract, commitment end date, tariff and address eligibility. Returns eligible, not_eligible or review_required.")]
+    public static object CheckEligibility(string customerId, string address) => Relocation.Eligibility(customerId,address);
+    [McpServerTool(Name = "calculate_relocation_cost"), Description("Calculate one-time relocation fee from internal rules. No amount returned until eligibility is confirmed.")]
+    public static object CalculateRelocationCost(string customerId, string address) => Relocation.Quote(customerId,address);
+    [McpServerTool(Name = "get_installation_slots"), Description("List internal installation windows for an eligible destination. Optional preferred date YYYY-MM-DD. No actual appointment is booked.")]
+    public static object GetInstallationSlots(string customerId, string address, string? preferredDate = null) => Relocation.Slots(customerId,address,preferredDate);
+    [McpServerTool(Name = "create_relocation_request"), Description("Record an internal relocation request for an eligible address, quoted fee and selected installation slot. Requires explicit confirmation of the move. Not an actual carrier order.")]
+    public static object CreateRelocationRequest(string customerId, string address, string slotId, bool confirmed) => Relocation.Create(customerId,address,slotId,confirmed);
+    [McpServerTool(Name = "schedule_customer_callback"), Description("Record a pending customer service review and callback request after explicit consent. No actual call is placed or guaranteed. Optional contact time preference, never collect real phone numbers.")]
+    public static object ScheduleCustomerCallback(string customerId, string destination, string reason, bool confirmed, string? preferredContactWindow = null) => Relocation.Callback(customerId,destination,reason,confirmed,preferredContactWindow);
 }

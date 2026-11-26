@@ -32,3 +32,6 @@ python3 scripts/validate_seed.py provjerava seed količine, jedinstvenost i refe
 
 ## Microsoft Teams
 See [TeamsApp/README.md](TeamsApp/README.md) for the channel tab package and installation. This is a public synthetic-data application, not a native Teams calling bot.
+
+## Relocation service
+Six additional tools: check_address_availability, check_relocation_eligibility, calculate_relocation_cost, get_installation_slots, create_relocation_request, schedule_customer_callback. Coverage is exact-match against Data/coverage.json; unknown addresses require review. Internal eligible relocation fee is EUR 29.90. Installation windows are weekdays from five days ahead within a 60-day horizon, reserved atomically in memory. Explicit confirmation is required for mutations; duplicate relocation and callback requests return existing records. Pending callbacks are records, not actual outbound calls. No real carrier coverage, pricing or contract changes are represented. The three synthetic addresses cover available, unavailable and survey-required scenarios; Ivana's destination is Ulica mirnih vrtova 28, 34000 Požega. Requests remain in memory and reset on restart.

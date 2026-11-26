@@ -24,7 +24,7 @@ public sealed class CustomerSupportService(ICustomerRepository repo)
     public object Contracts(string customerId)
     {
         var c = Find(customerId);
-        var rows = repo.Contracts.Where(x => x.CustomerId == c.Id).Select(x => new { x.Id, x.Status, x.StartDate, Tariff = repo.Tariffs.Single(t => t.Id == x.TariffId).Name }).ToArray();
+        var rows = repo.Contracts.Where(x => x.CustomerId == c.Id).Select(x => new { x.Id, x.Status, x.StartDate, x.CommitmentEndDate, Tariff = repo.Tariffs.Single(t => t.Id == x.TariffId).Name, MonthlyEur = repo.Tariffs.Single(t => t.Id == x.TariffId).MonthlyEur }).ToArray();
         return new { c.Id, Contracts = rows, Tariff = rows.FirstOrDefault()?.Tariff, Status = rows.FirstOrDefault()?.Status };
     }
     public object Invoices(string customerId)
@@ -45,7 +45,7 @@ public sealed class CustomerSupportService(ICustomerRepository repo)
     {
         var s = value?.ToLowerInvariant() ?? "";
         if (s.Contains("račun") || s.Contains("billing") || s.Contains("invoice")) return "billing";
-        if (s.Contains("ugovor") || s.Contains("contract") || s.Contains("preseljen")) return "contracts";
+        if (s.Contains("ugovor") || s.Contains("contract") || s.Contains("preseljen") || s.Contains("relocation")) return "contracts";
         if (s.Contains("sigurn") || s.Contains("security") || s.Contains("phishing")) return "security";
         if (s.Contains("prigovor") || s.Contains("complaint")) return "complaints";
         if (s.Contains("teren") || s.Contains("field")) return "field";

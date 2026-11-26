@@ -1,0 +1,23 @@
+[
+  {
+    "address": "Ulica mirnih vrtova 28, 34000 Požega",
+    "status": "review_required",
+    "technology": null,
+    "maxDownloadMbps": null,
+    "reason": "Building connection and installation feasibility require a specialist survey."
+  },
+  {
+    "address": "Ulica svijetlih lipa 18, 34000 Požega",
+    "status": "available",
+    "technology": "FTTH",
+    "maxDownloadMbps": 1000,
+    "reason": "Fibre connection listed in internal coverage records."
+  },
+  {
+    "address": "Ulica plavih vrtova 42, 34000 Požega",
+    "status": "unavailable",
+    "technology": null,
+    "maxDownloadMbps": null,
+    "reason": "No fixed connection listed in internal coverage records."
+  }
+]

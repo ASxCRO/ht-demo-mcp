@@ -4,559 +4,639 @@
     "customerId": "710000001",
     "tariffId": "TAR-001",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-002",
     "customerId": "710000002",
     "tariffId": "TAR-002",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-003",
     "customerId": "710000003",
-    "tariffId": "TAR-003",
+    "tariffId": "TAR-006",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-004",
     "customerId": "710000004",
     "tariffId": "TAR-004",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-005",
     "customerId": "710000005",
     "tariffId": "TAR-005",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-006",
     "customerId": "710000006",
     "tariffId": "TAR-006",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-007",
     "customerId": "710000007",
     "tariffId": "TAR-007",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-008",
     "customerId": "710000008",
     "tariffId": "TAR-008",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-009",
     "customerId": "710000009",
     "tariffId": "TAR-009",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-010",
     "customerId": "710000010",
     "tariffId": "TAR-010",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-011",
     "customerId": "710000011",
     "tariffId": "TAR-011",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-012",
     "customerId": "710000012",
     "tariffId": "TAR-012",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-013",
     "customerId": "710000013",
     "tariffId": "TAR-013",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-014",
     "customerId": "710000014",
     "tariffId": "TAR-014",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-015",
     "customerId": "710000015",
     "tariffId": "TAR-015",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-016",
     "customerId": "710000016",
     "tariffId": "TAR-001",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-017",
     "customerId": "710000017",
     "tariffId": "TAR-002",
     "status": "Istekao",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-018",
     "customerId": "710000018",
     "tariffId": "TAR-003",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-019",
     "customerId": "710000019",
     "tariffId": "TAR-004",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-020",
     "customerId": "710000020",
     "tariffId": "TAR-005",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-021",
     "customerId": "710000021",
     "tariffId": "TAR-006",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-022",
     "customerId": "710000022",
     "tariffId": "TAR-007",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-023",
     "customerId": "710000023",
     "tariffId": "TAR-008",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-024",
     "customerId": "710000024",
     "tariffId": "TAR-009",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-025",
     "customerId": "710000025",
     "tariffId": "TAR-010",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-026",
     "customerId": "710000026",
     "tariffId": "TAR-011",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-027",
     "customerId": "710000027",
     "tariffId": "TAR-012",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-028",
     "customerId": "710000028",
     "tariffId": "TAR-013",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-029",
     "customerId": "710000029",
     "tariffId": "TAR-014",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-030",
     "customerId": "710000030",
     "tariffId": "TAR-015",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-031",
     "customerId": "710000031",
     "tariffId": "TAR-001",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-032",
     "customerId": "710000032",
     "tariffId": "TAR-002",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-033",
     "customerId": "710000033",
     "tariffId": "TAR-003",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-034",
     "customerId": "710000034",
     "tariffId": "TAR-004",
     "status": "Istekao",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-035",
     "customerId": "710000035",
     "tariffId": "TAR-005",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-036",
     "customerId": "710000036",
     "tariffId": "TAR-006",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-037",
     "customerId": "710000037",
     "tariffId": "TAR-007",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-038",
     "customerId": "710000038",
     "tariffId": "TAR-008",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-039",
     "customerId": "710000039",
     "tariffId": "TAR-009",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-040",
     "customerId": "710000040",
     "tariffId": "TAR-010",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-041",
     "customerId": "710000041",
     "tariffId": "TAR-011",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-042",
     "customerId": "710000042",
     "tariffId": "TAR-012",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-043",
     "customerId": "710000043",
     "tariffId": "TAR-013",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-044",
     "customerId": "710000044",
     "tariffId": "TAR-014",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-045",
     "customerId": "710000045",
     "tariffId": "TAR-015",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-046",
     "customerId": "710000046",
     "tariffId": "TAR-001",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-047",
     "customerId": "710000047",
     "tariffId": "TAR-002",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-048",
     "customerId": "710000048",
     "tariffId": "TAR-003",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-049",
     "customerId": "710000049",
     "tariffId": "TAR-004",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-050",
     "customerId": "710000050",
     "tariffId": "TAR-005",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-051",
     "customerId": "710000001",
     "tariffId": "TAR-006",
     "status": "Istekao",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-052",
     "customerId": "710000002",
     "tariffId": "TAR-007",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-053",
     "customerId": "710000003",
-    "tariffId": "TAR-008",
+    "tariffId": "TAR-012",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-054",
     "customerId": "710000004",
     "tariffId": "TAR-009",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-055",
     "customerId": "710000005",
     "tariffId": "TAR-010",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-056",
     "customerId": "710000006",
     "tariffId": "TAR-011",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-057",
     "customerId": "710000007",
     "tariffId": "TAR-012",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-058",
     "customerId": "710000008",
     "tariffId": "TAR-013",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-059",
     "customerId": "710000009",
     "tariffId": "TAR-014",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-060",
     "customerId": "710000010",
     "tariffId": "TAR-015",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-061",
     "customerId": "710000011",
     "tariffId": "TAR-001",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-062",
     "customerId": "710000012",
     "tariffId": "TAR-002",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-063",
     "customerId": "710000013",
     "tariffId": "TAR-003",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-064",
     "customerId": "710000014",
     "tariffId": "TAR-004",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-065",
     "customerId": "710000015",
     "tariffId": "TAR-005",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-066",
     "customerId": "710000016",
     "tariffId": "TAR-006",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-067",
     "customerId": "710000017",
     "tariffId": "TAR-007",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-068",
     "customerId": "710000018",
     "tariffId": "TAR-008",
     "status": "Istekao",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-069",
     "customerId": "710000019",
     "tariffId": "TAR-009",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-070",
     "customerId": "710000020",
     "tariffId": "TAR-010",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   },
   {
     "id": "UG-071",
     "customerId": "710000021",
     "tariffId": "TAR-011",
     "status": "Aktivan",
-    "startDate": "2026-01-01"
+    "startDate": "2026-01-01",
+    "commitmentEndDate": "2028-01-01"
   },
   {
     "id": "UG-072",
     "customerId": "710000022",
     "tariffId": "TAR-012",
     "status": "Aktivan",
-    "startDate": "2026-02-01"
+    "startDate": "2026-02-01",
+    "commitmentEndDate": "2028-02-01"
   },
   {
     "id": "UG-073",
     "customerId": "710000023",
     "tariffId": "TAR-013",
     "status": "Aktivan",
-    "startDate": "2026-03-01"
+    "startDate": "2026-03-01",
+    "commitmentEndDate": "2028-03-01"
   },
   {
     "id": "UG-074",
     "customerId": "710000024",
     "tariffId": "TAR-014",
     "status": "Aktivan",
-    "startDate": "2026-04-01"
+    "startDate": "2026-04-01",
+    "commitmentEndDate": "2028-04-01"
   },
   {
     "id": "UG-075",
     "customerId": "710000025",
     "tariffId": "TAR-015",
     "status": "Aktivan",
-    "startDate": "2026-05-01"
+    "startDate": "2026-05-01",
+    "commitmentEndDate": "2028-05-01"
   },
   {
     "id": "UG-076",
     "customerId": "710000026",
     "tariffId": "TAR-001",
     "status": "Aktivan",
-    "startDate": "2026-06-01"
+    "startDate": "2026-06-01",
+    "commitmentEndDate": "2028-06-01"
   },
   {
     "id": "UG-077",
     "customerId": "710000027",
     "tariffId": "TAR-002",
     "status": "Aktivan",
-    "startDate": "2026-07-01"
+    "startDate": "2026-07-01",
+    "commitmentEndDate": "2028-07-01"
   },
   {
     "id": "UG-078",
     "customerId": "710000028",
     "tariffId": "TAR-003",
     "status": "Aktivan",
-    "startDate": "2026-08-01"
+    "startDate": "2026-08-01",
+    "commitmentEndDate": "2028-08-01"
   },
   {
     "id": "UG-079",
     "customerId": "710000029",
     "tariffId": "TAR-004",
     "status": "Aktivan",
-    "startDate": "2026-09-01"
+    "startDate": "2026-09-01",
+    "commitmentEndDate": "2028-09-01"
   },
   {
     "id": "UG-080",
     "customerId": "710000030",
     "tariffId": "TAR-005",
     "status": "Aktivan",
-    "startDate": "2026-10-01"
+    "startDate": "2026-10-01",
+    "commitmentEndDate": "2028-10-01"
   }
 ]

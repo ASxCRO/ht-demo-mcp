@@ -1,7 +1,7 @@
 namespace HtCustomerSupport.Models;
 
 public sealed record Customer(string Id, string FirstName, string LastName, string Name, string Address, string City, string Email);
-public sealed record Contract(string Id, string CustomerId, string TariffId, string Status, string StartDate);
+public sealed record Contract(string Id, string CustomerId, string TariffId, string Status, string StartDate, string? CommitmentEndDate = null);
 public sealed record Invoice(string Id, string CustomerId, string ContractId, string Period, string DueDate, decimal AmountEur, string Status, decimal OutstandingEur);
 public sealed record Tariff(string Id, string Name, decimal MonthlyEur, string Description);
 public sealed record Service(string Id, string Name, string Category);
