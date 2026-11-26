@@ -9,7 +9,8 @@ public sealed class SupportTools
     private static readonly InMemoryCustomerRepository Repository = new();
     private static readonly CustomerSupportService Support = new(Repository);
     private static readonly RelocationService Relocation = new(Repository);
-    public static void Initialize() { _ = Repository.Customers.Count; _ = Relocation; }
+    private static readonly RenewalService Renewal = new(Repository);
+    public static void Initialize() { _ = Repository.Customers.Count; _ = Relocation; _ = Renewal; }
 
     [McpServerTool(Name = "search_customers"), Description("Pretraži zapise interne evidencije prema korisničkoj oznaci, imenu, prezimenu, adresi, broju računa ili ugovora. Evidencija sadrži sintetičke podatke; ne unositi stvarne osobne podatke.")]
     public static object SearchCustomers(string? customerId = null, string? firstName = null, string? lastName = null, string? address = null, string? invoiceNumber = null, string? contractNumber = null) => Support.Search(customerId, firstName, lastName, address, invoiceNumber, contractNumber);
@@ -46,4 +47,9 @@ public sealed class SupportTools
     public static object CreateRelocationRequest(string customerId, string address, string slotId, bool confirmed) => Relocation.Create(customerId,address,slotId,confirmed);
     [McpServerTool(Name = "schedule_customer_callback"), Description("Record a pending customer service review and callback request after explicit consent. No actual call is placed or guaranteed. Optional contact time preference, never collect real phone numbers.")]
     public static object ScheduleCustomerCallback(string customerId, string destination, string reason, bool confirmed, string? preferredContactWindow = null) => Relocation.Callback(customerId,destination,reason,confirmed,preferredContactWindow);
+
+    [McpServerTool(Name = "get_renewal_offers"), Description("After account selection, check contract renewal eligibility and internal campaign offers. consideringSwitch=true only if the caller explicitly indicates they may switch provider. Prices include full commitment terms; not official carrier offers.")]
+    public static object GetRenewalOffers(string customerId, string contractId, bool consideringSwitch = false) => Renewal.Offers(customerId,contractId,consideringSwitch);
+    [McpServerTool(Name = "create_renewal_request"), Description("Record an internal renewal request pending paper contract signature, only after the customer explicitly accepts the selected offer, price, commitment and delivery address. No actual contract dispatch, shipping or service change.")]
+    public static object CreateRenewalRequest(string customerId, string contractId, string offerId, bool consideringSwitch, bool confirmed) => Renewal.Create(customerId,contractId,offerId,consideringSwitch,confirmed);
 }
