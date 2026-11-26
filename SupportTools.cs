@@ -15,7 +15,7 @@ public sealed class SupportTools
     public static object SearchCustomers(string? customerId = null, string? firstName = null, string? lastName = null, string? address = null, string? invoiceNumber = null, string? contractNumber = null) => Support.Search(customerId, firstName, lastName, address, invoiceNumber, contractNumber);
     [McpServerTool(Name = "get_customer_contracts"), Description("Dohvati ugovore odabranog korisnika iz interne evidencije.")]
     public static object GetContracts(string customerId) => Support.Contracts(customerId);
-    [McpServerTool(Name = "get_invoices"), Description("Dohvati račune, iznose i evidentirani status plaćanja korisnika.")]
+    [McpServerTool(Name = "get_invoices"), Description("Retrieve invoices, outstanding balance, recorded payment receipt/posting dates and reminder status when available from the internal ledger. Not live bank verification.")]
     public static object GetInvoices(string customerId) => Support.Invoices(customerId);
     [McpServerTool(Name = "get_tariffs"), Description("Dohvati tarife i cijene iz internog kataloga; nisu službene ponude operatera.")]
     public static object GetTariffs() => Support.Tariffs();

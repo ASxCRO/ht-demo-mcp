@@ -56,8 +56,12 @@
     "period": "2026-10",
     "dueDate": "2026-11-20",
     "amountEur": 24.9,
-    "status": "Nepodmiren",
-    "outstandingEur": 24.9
+    "status": "Plaćen",
+    "outstandingEur": 0,
+    "paymentReceivedDate": "2026-11-19",
+    "paymentPostedDate": "2026-11-24",
+    "reminderSentDate": "2026-11-23",
+    "reminderStatus": "superseded_by_posted_payment"
   },
   {
     "id": "RAC-007",
