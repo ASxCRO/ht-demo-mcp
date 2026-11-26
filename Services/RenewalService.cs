@@ -25,14 +25,22 @@ public sealed class RenewalService(ICustomerRepository repo)
         if(repo.Invoices.Any(i=>i.CustomerId==customer.Id&&i.OutstandingEur>0)) return (false,days,"Outstanding balance requires review.");
         return (true,days,"Eligible under internal campaign rules.");
     }
-    public object Offers(string customerId,string contractId,bool consideringSwitch)
+    public object Offers(string customerId,string? contractId,bool consideringSwitch)
     {
+        if(!repo.Customers.Any(c=>c.Id==customerId)) throw new ArgumentException("Customer not found.");
+        if(string.IsNullOrWhiteSpace(contractId))
+        {
+            var candidates=repo.Contracts.Where(c=>c.CustomerId==customerId && c.Status=="Aktivan" && c.TariffId=="TAR-002" && repo.CustomerServices.Any(x=>x.CustomerId==customerId&&x.ContractId==c.Id&&x.Status=="Aktivna"&&repo.Services.Any(y=>y.Id==x.ServiceId&&y.Category=="internet"))).ToArray();
+            if(candidates.Length!=1) return new { Eligible=false, Reason="A unique active Internet L contract could not be selected; review the contracts.", Offers=Array.Empty<RenewalOffer>() };
+            contractId=candidates[0].Id;
+        }
         var e=Eligibility(customerId,contractId);
-        if(!e.Eligible) return new { Eligible=false, DaysUntilExpiry=e.Days, Reason=e.Reason, Offers=Array.Empty<RenewalOffer>() };
+        var contract=repo.Contracts.Single(c=>c.Id==contractId&&c.CustomerId==customerId);
+        if(!e.Eligible) return new { Eligible=false, ContractId=contractId, CommitmentEndDate=contract.CommitmentEndDate, DaysUntilExpiry=e.Days, Reason=e.Reason, Offers=Array.Empty<RenewalOffer>() };
         lock(_gate)
         {
-            if(_requests.TryGetValue(customerId+"|"+contractId,out var existing)) return new { Eligible=true, DaysUntilExpiry=e.Days, Reason="Existing renewal request; do not create another.", Offers=new[]{existing.Offer} };
-            return new { Eligible=true, DaysUntilExpiry=e.Days, Reason=e.Reason, Offers=consideringSwitch?Retention:new[]{Standard} };
+            if(_requests.TryGetValue(customerId+"|"+contractId,out var existing)) return new { Eligible=true, ContractId=contractId, CommitmentEndDate=contract.CommitmentEndDate, DaysUntilExpiry=e.Days, Reason="Existing renewal request; do not create another.", ExistingRequest=existing, Offers=Array.Empty<RenewalOffer>() };
+            return new { Eligible=true, ContractId=contractId, CommitmentEndDate=contract.CommitmentEndDate, DaysUntilExpiry=e.Days, Reason=e.Reason, Offers=consideringSwitch?Retention:new[]{Standard} };
         }
     }
     public RenewalRequest Create(string customerId,string contractId,string offerId,bool consideringSwitch,bool confirmed)
