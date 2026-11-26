@@ -3,90 +3,90 @@
     "id": "TAR-001",
     "name": "Mobilna M",
     "monthlyEur": 24.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Mobilna M prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-002",
     "name": "Internet L",
     "monthlyEur": 34.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Internet L prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-003",
     "name": "Mobilna S",
     "monthlyEur": 14.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Mobilna S prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-004",
     "name": "Mobilna XL",
     "monthlyEur": 39.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Mobilna XL prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-005",
     "name": "Internet S",
     "monthlyEur": 19.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Internet S prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-006",
     "name": "Internet M",
     "monthlyEur": 29.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Internet M prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-007",
     "name": "Internet XL",
     "monthlyEur": 44.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Internet XL prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-008",
     "name": "TV Osnovni",
     "monthlyEur": 9.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket TV Osnovni prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-009",
     "name": "TV Plus",
     "monthlyEur": 19.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket TV Plus prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-010",
     "name": "Internet + TV",
     "monthlyEur": 49.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Internet + TV prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-011",
     "name": "Mobilna + Internet",
     "monthlyEur": 54.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Mobilna + Internet prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-012",
     "name": "Obiteljski paket",
     "monthlyEur": 69.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Obiteljski paket prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-013",
     "name": "Roaming dodatak",
     "monthlyEur": 5.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Roaming dodatak prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-014",
     "name": "Bonovi S",
     "monthlyEur": 9.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Bonovi S prema internom katalogu; nije službena ponuda operatera."
   },
   {
     "id": "TAR-015",
-    "name": "Poslovni demo",
+    "name": "Poslovni Plus",
     "monthlyEur": 59.9,
-    "description": "Fiktivna demo ponuda; nije službena HT tarifa."
+    "description": "Mjesečna naknada za paket Poslovni Plus prema internom katalogu; nije službena ponuda operatera."
   }
 ]

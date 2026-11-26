@@ -1,4 +1,4 @@
-const agents = { sara: { id: "agent_1201m894akmefcatc7epzy2pvq8s", title: "Sara – Customer Service", description: "Testirajte upite o tarifama, računima, uslugama i poteškoćama." }, customer: { id: "agent_1801m894c1sze8781y0g9y21kt25", title: "Customer Simulator", description: "Glumi korisnicu. Najprije je pozdravite kao agent korisničke podrške." } };
+const agents = { sara: { id: "agent_1201m894akmefcatc7epzy2pvq8s", title: "Sara – Customer Service", description: "Postavite upite o tarifama, računima, uslugama i poteškoćama." }, customer: { id: "agent_1801m894c1sze8781y0g9y21kt25", title: "Ana Anić – korisnica", description: "Glasovni profil korisnice. Najprije je pozdravite kao agent korisničke podrške." } };
 const key = new URLSearchParams(location.search).get("agent") === "customer" ? "customer" : "sara";
 const agent = agents[key];
 document.getElementById("agent-title").textContent = agent.title;

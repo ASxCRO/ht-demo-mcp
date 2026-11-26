@@ -285,7 +285,7 @@
     "symptom": "Veći račun",
     "question": "Koji dio računa niste očekivali?",
     "steps": [
-      "Nakon odabira demo zapisa provjerite stavke.",
+      "Nakon odabira zapisa provjerite stavke.",
       "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
     ]
   },
@@ -295,7 +295,7 @@
     "symptom": "Plaćeno, ali prikazan dug",
     "question": "Kada ste obavili uplatu?",
     "steps": [
-      "Provjerite simulirani status; ne tražite ponovnu uplatu.",
+      "Provjerite status; ne tražite ponovnu uplatu.",
       "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
     ]
   },
@@ -335,7 +335,7 @@
     "symptom": "Kašnjenje instalacije",
     "question": "Je li termin već potvrđen?",
     "steps": [
-      "Ponudite provjeru ili demo prijavu.",
+      "Ponudite provjeru ili prijavu.",
       "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
     ]
   },
@@ -385,7 +385,7 @@
     "symptom": "Ponavljajući kvar",
     "question": "Što je već pokušano?",
     "steps": [
-      "Ne ponavljajte iscrpljene korake; ponudite demo prijavu.",
+      "Ne ponavljajte iscrpljene korake; ponudite prijavu.",
       "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."
     ]
   },
@@ -393,7 +393,7 @@
     "id": "SOL-040",
     "category": "general",
     "symptom": "Zahtjev za zaposlenikom",
-    "question": "Želite li da se zabilježi demo prijava?",
+    "question": "Želite li da se zabilježi prijava?",
     "steps": [
       "Objasnite da nema stvarnog transfera ni zakazivanja.",
       "Ako poteškoća nije riješena, ponudite odgovarajuću daljnju pomoć."

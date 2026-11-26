@@ -1,700 +1,700 @@
 [
   {
     "id": "CS-001",
-    "customerId": "DEMO-001",
+    "customerId": "710000001",
     "contractId": "UG-001",
     "serviceId": "SVC-001",
     "status": "Aktivna"
   },
   {
     "id": "CS-002",
-    "customerId": "DEMO-002",
+    "customerId": "710000002",
     "contractId": "UG-002",
     "serviceId": "SVC-002",
     "status": "Aktivna"
   },
   {
     "id": "CS-003",
-    "customerId": "DEMO-003",
+    "customerId": "710000003",
     "contractId": "UG-003",
     "serviceId": "SVC-003",
     "status": "Aktivna"
   },
   {
     "id": "CS-004",
-    "customerId": "DEMO-004",
+    "customerId": "710000004",
     "contractId": "UG-004",
     "serviceId": "SVC-004",
     "status": "Aktivna"
   },
   {
     "id": "CS-005",
-    "customerId": "DEMO-005",
+    "customerId": "710000005",
     "contractId": "UG-005",
     "serviceId": "SVC-005",
     "status": "Aktivna"
   },
   {
     "id": "CS-006",
-    "customerId": "DEMO-006",
+    "customerId": "710000006",
     "contractId": "UG-006",
     "serviceId": "SVC-006",
     "status": "Aktivna"
   },
   {
     "id": "CS-007",
-    "customerId": "DEMO-007",
+    "customerId": "710000007",
     "contractId": "UG-007",
     "serviceId": "SVC-007",
     "status": "Aktivna"
   },
   {
     "id": "CS-008",
-    "customerId": "DEMO-008",
+    "customerId": "710000008",
     "contractId": "UG-008",
     "serviceId": "SVC-008",
     "status": "Aktivna"
   },
   {
     "id": "CS-009",
-    "customerId": "DEMO-009",
+    "customerId": "710000009",
     "contractId": "UG-009",
     "serviceId": "SVC-009",
     "status": "Aktivna"
   },
   {
     "id": "CS-010",
-    "customerId": "DEMO-010",
+    "customerId": "710000010",
     "contractId": "UG-010",
     "serviceId": "SVC-010",
     "status": "Aktivna"
   },
   {
     "id": "CS-011",
-    "customerId": "DEMO-011",
+    "customerId": "710000011",
     "contractId": "UG-011",
     "serviceId": "SVC-011",
     "status": "Aktivna"
   },
   {
     "id": "CS-012",
-    "customerId": "DEMO-012",
+    "customerId": "710000012",
     "contractId": "UG-012",
     "serviceId": "SVC-012",
     "status": "Aktivna"
   },
   {
     "id": "CS-013",
-    "customerId": "DEMO-013",
+    "customerId": "710000013",
     "contractId": "UG-013",
     "serviceId": "SVC-013",
     "status": "Aktivna"
   },
   {
     "id": "CS-014",
-    "customerId": "DEMO-014",
+    "customerId": "710000014",
     "contractId": "UG-014",
     "serviceId": "SVC-014",
     "status": "Aktivna"
   },
   {
     "id": "CS-015",
-    "customerId": "DEMO-015",
+    "customerId": "710000015",
     "contractId": "UG-015",
     "serviceId": "SVC-015",
     "status": "Aktivna"
   },
   {
     "id": "CS-016",
-    "customerId": "DEMO-016",
+    "customerId": "710000016",
     "contractId": "UG-016",
     "serviceId": "SVC-016",
     "status": "Aktivna"
   },
   {
     "id": "CS-017",
-    "customerId": "DEMO-017",
+    "customerId": "710000017",
     "contractId": "UG-017",
     "serviceId": "SVC-017",
     "status": "Neaktivna"
   },
   {
     "id": "CS-018",
-    "customerId": "DEMO-018",
+    "customerId": "710000018",
     "contractId": "UG-018",
     "serviceId": "SVC-018",
     "status": "Aktivna"
   },
   {
     "id": "CS-019",
-    "customerId": "DEMO-019",
+    "customerId": "710000019",
     "contractId": "UG-019",
     "serviceId": "SVC-019",
     "status": "Aktivna"
   },
   {
     "id": "CS-020",
-    "customerId": "DEMO-020",
+    "customerId": "710000020",
     "contractId": "UG-020",
     "serviceId": "SVC-020",
     "status": "Aktivna"
   },
   {
     "id": "CS-021",
-    "customerId": "DEMO-021",
+    "customerId": "710000021",
     "contractId": "UG-021",
     "serviceId": "SVC-001",
     "status": "Aktivna"
   },
   {
     "id": "CS-022",
-    "customerId": "DEMO-022",
+    "customerId": "710000022",
     "contractId": "UG-022",
     "serviceId": "SVC-002",
     "status": "Aktivna"
   },
   {
     "id": "CS-023",
-    "customerId": "DEMO-023",
+    "customerId": "710000023",
     "contractId": "UG-023",
     "serviceId": "SVC-003",
     "status": "Aktivna"
   },
   {
     "id": "CS-024",
-    "customerId": "DEMO-024",
+    "customerId": "710000024",
     "contractId": "UG-024",
     "serviceId": "SVC-004",
     "status": "Aktivna"
   },
   {
     "id": "CS-025",
-    "customerId": "DEMO-025",
+    "customerId": "710000025",
     "contractId": "UG-025",
     "serviceId": "SVC-005",
     "status": "Aktivna"
   },
   {
     "id": "CS-026",
-    "customerId": "DEMO-026",
+    "customerId": "710000026",
     "contractId": "UG-026",
     "serviceId": "SVC-006",
     "status": "Aktivna"
   },
   {
     "id": "CS-027",
-    "customerId": "DEMO-027",
+    "customerId": "710000027",
     "contractId": "UG-027",
     "serviceId": "SVC-007",
     "status": "Aktivna"
   },
   {
     "id": "CS-028",
-    "customerId": "DEMO-028",
+    "customerId": "710000028",
     "contractId": "UG-028",
     "serviceId": "SVC-008",
     "status": "Aktivna"
   },
   {
     "id": "CS-029",
-    "customerId": "DEMO-029",
+    "customerId": "710000029",
     "contractId": "UG-029",
     "serviceId": "SVC-009",
     "status": "Aktivna"
   },
   {
     "id": "CS-030",
-    "customerId": "DEMO-030",
+    "customerId": "710000030",
     "contractId": "UG-030",
     "serviceId": "SVC-010",
     "status": "Aktivna"
   },
   {
     "id": "CS-031",
-    "customerId": "DEMO-031",
+    "customerId": "710000031",
     "contractId": "UG-031",
     "serviceId": "SVC-011",
     "status": "Aktivna"
   },
   {
     "id": "CS-032",
-    "customerId": "DEMO-032",
+    "customerId": "710000032",
     "contractId": "UG-032",
     "serviceId": "SVC-012",
     "status": "Aktivna"
   },
   {
     "id": "CS-033",
-    "customerId": "DEMO-033",
+    "customerId": "710000033",
     "contractId": "UG-033",
     "serviceId": "SVC-013",
     "status": "Aktivna"
   },
   {
     "id": "CS-034",
-    "customerId": "DEMO-034",
+    "customerId": "710000034",
     "contractId": "UG-034",
     "serviceId": "SVC-014",
     "status": "Neaktivna"
   },
   {
     "id": "CS-035",
-    "customerId": "DEMO-035",
+    "customerId": "710000035",
     "contractId": "UG-035",
     "serviceId": "SVC-015",
     "status": "Aktivna"
   },
   {
     "id": "CS-036",
-    "customerId": "DEMO-036",
+    "customerId": "710000036",
     "contractId": "UG-036",
     "serviceId": "SVC-016",
     "status": "Aktivna"
   },
   {
     "id": "CS-037",
-    "customerId": "DEMO-037",
+    "customerId": "710000037",
     "contractId": "UG-037",
     "serviceId": "SVC-017",
     "status": "Aktivna"
   },
   {
     "id": "CS-038",
-    "customerId": "DEMO-038",
+    "customerId": "710000038",
     "contractId": "UG-038",
     "serviceId": "SVC-018",
     "status": "Aktivna"
   },
   {
     "id": "CS-039",
-    "customerId": "DEMO-039",
+    "customerId": "710000039",
     "contractId": "UG-039",
     "serviceId": "SVC-019",
     "status": "Aktivna"
   },
   {
     "id": "CS-040",
-    "customerId": "DEMO-040",
+    "customerId": "710000040",
     "contractId": "UG-040",
     "serviceId": "SVC-020",
     "status": "Aktivna"
   },
   {
     "id": "CS-041",
-    "customerId": "DEMO-041",
+    "customerId": "710000041",
     "contractId": "UG-041",
     "serviceId": "SVC-001",
     "status": "Aktivna"
   },
   {
     "id": "CS-042",
-    "customerId": "DEMO-042",
+    "customerId": "710000042",
     "contractId": "UG-042",
     "serviceId": "SVC-002",
     "status": "Aktivna"
   },
   {
     "id": "CS-043",
-    "customerId": "DEMO-043",
+    "customerId": "710000043",
     "contractId": "UG-043",
     "serviceId": "SVC-003",
     "status": "Aktivna"
   },
   {
     "id": "CS-044",
-    "customerId": "DEMO-044",
+    "customerId": "710000044",
     "contractId": "UG-044",
     "serviceId": "SVC-004",
     "status": "Aktivna"
   },
   {
     "id": "CS-045",
-    "customerId": "DEMO-045",
+    "customerId": "710000045",
     "contractId": "UG-045",
     "serviceId": "SVC-005",
     "status": "Aktivna"
   },
   {
     "id": "CS-046",
-    "customerId": "DEMO-046",
+    "customerId": "710000046",
     "contractId": "UG-046",
     "serviceId": "SVC-006",
     "status": "Aktivna"
   },
   {
     "id": "CS-047",
-    "customerId": "DEMO-047",
+    "customerId": "710000047",
     "contractId": "UG-047",
     "serviceId": "SVC-007",
     "status": "Aktivna"
   },
   {
     "id": "CS-048",
-    "customerId": "DEMO-048",
+    "customerId": "710000048",
     "contractId": "UG-048",
     "serviceId": "SVC-008",
     "status": "Aktivna"
   },
   {
     "id": "CS-049",
-    "customerId": "DEMO-049",
+    "customerId": "710000049",
     "contractId": "UG-049",
     "serviceId": "SVC-009",
     "status": "Aktivna"
   },
   {
     "id": "CS-050",
-    "customerId": "DEMO-050",
+    "customerId": "710000050",
     "contractId": "UG-050",
     "serviceId": "SVC-010",
     "status": "Aktivna"
   },
   {
     "id": "CS-051",
-    "customerId": "DEMO-001",
+    "customerId": "710000001",
     "contractId": "UG-051",
     "serviceId": "SVC-011",
     "status": "Neaktivna"
   },
   {
     "id": "CS-052",
-    "customerId": "DEMO-002",
+    "customerId": "710000002",
     "contractId": "UG-052",
     "serviceId": "SVC-012",
     "status": "Aktivna"
   },
   {
     "id": "CS-053",
-    "customerId": "DEMO-003",
+    "customerId": "710000003",
     "contractId": "UG-053",
     "serviceId": "SVC-013",
     "status": "Aktivna"
   },
   {
     "id": "CS-054",
-    "customerId": "DEMO-004",
+    "customerId": "710000004",
     "contractId": "UG-054",
     "serviceId": "SVC-014",
     "status": "Aktivna"
   },
   {
     "id": "CS-055",
-    "customerId": "DEMO-005",
+    "customerId": "710000005",
     "contractId": "UG-055",
     "serviceId": "SVC-015",
     "status": "Aktivna"
   },
   {
     "id": "CS-056",
-    "customerId": "DEMO-006",
+    "customerId": "710000006",
     "contractId": "UG-056",
     "serviceId": "SVC-016",
     "status": "Aktivna"
   },
   {
     "id": "CS-057",
-    "customerId": "DEMO-007",
+    "customerId": "710000007",
     "contractId": "UG-057",
     "serviceId": "SVC-017",
     "status": "Aktivna"
   },
   {
     "id": "CS-058",
-    "customerId": "DEMO-008",
+    "customerId": "710000008",
     "contractId": "UG-058",
     "serviceId": "SVC-018",
     "status": "Aktivna"
   },
   {
     "id": "CS-059",
-    "customerId": "DEMO-009",
+    "customerId": "710000009",
     "contractId": "UG-059",
     "serviceId": "SVC-019",
     "status": "Aktivna"
   },
   {
     "id": "CS-060",
-    "customerId": "DEMO-010",
+    "customerId": "710000010",
     "contractId": "UG-060",
     "serviceId": "SVC-020",
     "status": "Aktivna"
   },
   {
     "id": "CS-061",
-    "customerId": "DEMO-011",
+    "customerId": "710000011",
     "contractId": "UG-061",
     "serviceId": "SVC-001",
     "status": "Aktivna"
   },
   {
     "id": "CS-062",
-    "customerId": "DEMO-012",
+    "customerId": "710000012",
     "contractId": "UG-062",
     "serviceId": "SVC-002",
     "status": "Aktivna"
   },
   {
     "id": "CS-063",
-    "customerId": "DEMO-013",
+    "customerId": "710000013",
     "contractId": "UG-063",
     "serviceId": "SVC-003",
     "status": "Aktivna"
   },
   {
     "id": "CS-064",
-    "customerId": "DEMO-014",
+    "customerId": "710000014",
     "contractId": "UG-064",
     "serviceId": "SVC-004",
     "status": "Aktivna"
   },
   {
     "id": "CS-065",
-    "customerId": "DEMO-015",
+    "customerId": "710000015",
     "contractId": "UG-065",
     "serviceId": "SVC-005",
     "status": "Aktivna"
   },
   {
     "id": "CS-066",
-    "customerId": "DEMO-016",
+    "customerId": "710000016",
     "contractId": "UG-066",
     "serviceId": "SVC-006",
     "status": "Aktivna"
   },
   {
     "id": "CS-067",
-    "customerId": "DEMO-017",
+    "customerId": "710000017",
     "contractId": "UG-067",
     "serviceId": "SVC-007",
     "status": "Aktivna"
   },
   {
     "id": "CS-068",
-    "customerId": "DEMO-018",
+    "customerId": "710000018",
     "contractId": "UG-068",
     "serviceId": "SVC-008",
     "status": "Neaktivna"
   },
   {
     "id": "CS-069",
-    "customerId": "DEMO-019",
+    "customerId": "710000019",
     "contractId": "UG-069",
     "serviceId": "SVC-009",
     "status": "Aktivna"
   },
   {
     "id": "CS-070",
-    "customerId": "DEMO-020",
+    "customerId": "710000020",
     "contractId": "UG-070",
     "serviceId": "SVC-010",
     "status": "Aktivna"
   },
   {
     "id": "CS-071",
-    "customerId": "DEMO-021",
+    "customerId": "710000021",
     "contractId": "UG-071",
     "serviceId": "SVC-011",
     "status": "Aktivna"
   },
   {
     "id": "CS-072",
-    "customerId": "DEMO-022",
+    "customerId": "710000022",
     "contractId": "UG-072",
     "serviceId": "SVC-012",
     "status": "Aktivna"
   },
   {
     "id": "CS-073",
-    "customerId": "DEMO-023",
+    "customerId": "710000023",
     "contractId": "UG-073",
     "serviceId": "SVC-013",
     "status": "Aktivna"
   },
   {
     "id": "CS-074",
-    "customerId": "DEMO-024",
+    "customerId": "710000024",
     "contractId": "UG-074",
     "serviceId": "SVC-014",
     "status": "Aktivna"
   },
   {
     "id": "CS-075",
-    "customerId": "DEMO-025",
+    "customerId": "710000025",
     "contractId": "UG-075",
     "serviceId": "SVC-015",
     "status": "Aktivna"
   },
   {
     "id": "CS-076",
-    "customerId": "DEMO-026",
+    "customerId": "710000026",
     "contractId": "UG-076",
     "serviceId": "SVC-016",
     "status": "Aktivna"
   },
   {
     "id": "CS-077",
-    "customerId": "DEMO-027",
+    "customerId": "710000027",
     "contractId": "UG-077",
     "serviceId": "SVC-017",
     "status": "Aktivna"
   },
   {
     "id": "CS-078",
-    "customerId": "DEMO-028",
+    "customerId": "710000028",
     "contractId": "UG-078",
     "serviceId": "SVC-018",
     "status": "Aktivna"
   },
   {
     "id": "CS-079",
-    "customerId": "DEMO-029",
+    "customerId": "710000029",
     "contractId": "UG-079",
     "serviceId": "SVC-019",
     "status": "Aktivna"
   },
   {
     "id": "CS-080",
-    "customerId": "DEMO-030",
+    "customerId": "710000030",
     "contractId": "UG-080",
     "serviceId": "SVC-020",
     "status": "Aktivna"
   },
   {
     "id": "CS-081",
-    "customerId": "DEMO-031",
+    "customerId": "710000031",
     "contractId": "UG-031",
     "serviceId": "SVC-001",
     "status": "Aktivna"
   },
   {
     "id": "CS-082",
-    "customerId": "DEMO-032",
+    "customerId": "710000032",
     "contractId": "UG-032",
     "serviceId": "SVC-002",
     "status": "Aktivna"
   },
   {
     "id": "CS-083",
-    "customerId": "DEMO-033",
+    "customerId": "710000033",
     "contractId": "UG-033",
     "serviceId": "SVC-003",
     "status": "Aktivna"
   },
   {
     "id": "CS-084",
-    "customerId": "DEMO-034",
+    "customerId": "710000034",
     "contractId": "UG-034",
     "serviceId": "SVC-004",
     "status": "Neaktivna"
   },
   {
     "id": "CS-085",
-    "customerId": "DEMO-035",
+    "customerId": "710000035",
     "contractId": "UG-035",
     "serviceId": "SVC-005",
     "status": "Aktivna"
   },
   {
     "id": "CS-086",
-    "customerId": "DEMO-036",
+    "customerId": "710000036",
     "contractId": "UG-036",
     "serviceId": "SVC-006",
     "status": "Aktivna"
   },
   {
     "id": "CS-087",
-    "customerId": "DEMO-037",
+    "customerId": "710000037",
     "contractId": "UG-037",
     "serviceId": "SVC-007",
     "status": "Aktivna"
   },
   {
     "id": "CS-088",
-    "customerId": "DEMO-038",
+    "customerId": "710000038",
     "contractId": "UG-038",
     "serviceId": "SVC-008",
     "status": "Aktivna"
   },
   {
     "id": "CS-089",
-    "customerId": "DEMO-039",
+    "customerId": "710000039",
     "contractId": "UG-039",
     "serviceId": "SVC-009",
     "status": "Aktivna"
   },
   {
     "id": "CS-090",
-    "customerId": "DEMO-040",
+    "customerId": "710000040",
     "contractId": "UG-040",
     "serviceId": "SVC-010",
     "status": "Aktivna"
   },
   {
     "id": "CS-091",
-    "customerId": "DEMO-041",
+    "customerId": "710000041",
     "contractId": "UG-041",
     "serviceId": "SVC-011",
     "status": "Aktivna"
   },
   {
     "id": "CS-092",
-    "customerId": "DEMO-042",
+    "customerId": "710000042",
     "contractId": "UG-042",
     "serviceId": "SVC-012",
     "status": "Aktivna"
   },
   {
     "id": "CS-093",
-    "customerId": "DEMO-043",
+    "customerId": "710000043",
     "contractId": "UG-043",
     "serviceId": "SVC-013",
     "status": "Aktivna"
   },
   {
     "id": "CS-094",
-    "customerId": "DEMO-044",
+    "customerId": "710000044",
     "contractId": "UG-044",
     "serviceId": "SVC-014",
     "status": "Aktivna"
   },
   {
     "id": "CS-095",
-    "customerId": "DEMO-045",
+    "customerId": "710000045",
     "contractId": "UG-045",
     "serviceId": "SVC-015",
     "status": "Aktivna"
   },
   {
     "id": "CS-096",
-    "customerId": "DEMO-046",
+    "customerId": "710000046",
     "contractId": "UG-046",
     "serviceId": "SVC-016",
     "status": "Aktivna"
   },
   {
     "id": "CS-097",
-    "customerId": "DEMO-047",
+    "customerId": "710000047",
     "contractId": "UG-047",
     "serviceId": "SVC-017",
     "status": "Aktivna"
   },
   {
     "id": "CS-098",
-    "customerId": "DEMO-048",
+    "customerId": "710000048",
     "contractId": "UG-048",
     "serviceId": "SVC-018",
     "status": "Aktivna"
   },
   {
     "id": "CS-099",
-    "customerId": "DEMO-049",
+    "customerId": "710000049",
     "contractId": "UG-049",
     "serviceId": "SVC-019",
     "status": "Aktivna"
   },
   {
     "id": "CS-100",
-    "customerId": "DEMO-050",
+    "customerId": "710000050",
     "contractId": "UG-050",
     "serviceId": "SVC-020",
     "status": "Aktivna"

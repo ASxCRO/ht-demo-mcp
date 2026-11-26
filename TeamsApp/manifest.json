@@ -1,21 +1,21 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
   "manifestVersion": "1.19",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "db36fbf6-6c31-4f41-a5c2-b4546f209c57",
   "developer": {
-    "name": "HT Demo PoC",
+    "name": "Voice Support",
     "websiteUrl": "https://ht-demo-mcp.onrender.com/teams/index.html",
     "privacyUrl": "https://ht-demo-mcp.onrender.com/teams/privacy.html",
     "termsOfUseUrl": "https://ht-demo-mcp.onrender.com/teams/terms.html"
   },
   "name": {
-    "short": "HT Voice Demo",
-    "full": "HT Voice Demo – ElevenLabs agents"
+    "short": "HT Voice Support",
+    "full": "HT Voice Support – ElevenLabs agents"
   },
   "description": {
-    "short": "Glasovni razgovor s demo agentima.",
-    "full": "Neslužbeni PoC s dva ElevenLabs voice agenta. Koristite samo sintetičke podatke. Za glasovni razgovor potrebna je dozvola za mikrofon."
+    "short": "Glasovni razgovor s agentima korisničke podrške.",
+    "full": "Neovisna aplikacija s dva ElevenLabs glasovna agenta. Koristite samo sintetičke podatke. Za glasovni razgovor potrebna je dozvola za mikrofon."
   },
   "icons": {
     "outline": "outline.png",

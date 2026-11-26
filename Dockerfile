@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
-COPY HtDemoMcp.csproj .
+COPY HtCustomerSupport.csproj .
 RUN dotnet restore
 COPY . .
 RUN dotnet publish -c Release -o /app --no-restore
@@ -10,4 +10,4 @@ COPY --from=build /app .
 ENV PORT=8080
 EXPOSE 8080
 USER $APP_UID
-ENTRYPOINT ["dotnet", "HtDemoMcp.dll"]
+ENTRYPOINT ["dotnet", "HtCustomerSupport.dll"]

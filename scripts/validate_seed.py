@@ -19,3 +19,6 @@ assert all(t["customerId"] in customers and t["employeeId"] in employees for t i
 assert all(c["email"].endswith("@example.invalid") for c in data["customers"])
 assert all(e["email"].endswith("@example.invalid") for e in data["employees"])
 print("All seed checks passed:", expected)
+
+assert all(len(c['id']) == 9 and c['id'].isdigit() for c in data['customers'])
+assert all(c['address'] and c['city'] in c['address'] for c in data['customers'])

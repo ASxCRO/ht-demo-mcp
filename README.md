@@ -1,10 +1,10 @@
-# HT demo MCP (neovisni PoC)
+# HT Customer Support MCP
 
-Neslužbena demonstracija. Svi korisnici, adrese, identifikatori, tarife, zaposlenici i statusi su sintetički. Nema stvarne HT integracije, autentikacije krajnjeg korisnika, transfera, rezervacije termina ili slanja e-maila. Koristi samo demo podatke. E-mail adrese koriste rezerviranu domenu example.invalid.
+Neovisna aplikacija za glasovnu podršku. Svi korisnički zapisi, adrese, identifikatori, tarife, zaposlenici i statusi su sintetički. Nema stvarne HT integracije, autentikacije krajnjeg korisnika, transfera, rezervacije termina ili slanja e-maila. Koristi samo podatke interne evidencije. E-mail adrese koriste rezerviranu domenu example.invalid.
 
 ## Arhitektura
-MCP Tools → DemoSupportService → IDemoRepository → InMemoryDemoRepository → JSON seed.
-Podaci se učitavaju pri pokretanju. Prijave i simulirani outbox zapisi nastali tijekom rada čuvaju se samo u RAM-u; restart vraća početni seed. Nema PostgreSQL ni zapisivanja u JSON.
+MCP Tools → CustomerSupportService → ICustomerRepository → InMemoryCustomerRepository → JSON seed.
+Podaci se učitavaju pri pokretanju. Prijave i outbox zapisi nastali tijekom rada čuvaju se samo u RAM-u; restart vraća početni seed. Nema PostgreSQL ni zapisivanja u JSON.
 
 ## Seed
 - Data/customers.json: 50
@@ -21,14 +21,14 @@ Podaci se učitavaju pri pokretanju. Prijave i simulirani outbox zapisi nastali 
 ## Pokretanje
 .NET 10 SDK: postavi MCP_API_KEY na nasumičan tajni niz od najmanje 32 znaka, zatim dotnet run. Docker: Dockerfile u rootu. GET /health, MCP /mcp (Streamable HTTP, Authorization: Bearer token). Na Renderu konfiguriraj MCP_API_KEY kao tajnu; ne commitaj ključ.
 
-## Demo alati
+## MCP alati
 Zadržani su postojeći nazivi i parametri za ElevenLabs. Prošireni opcionalni argumenti: search_customers (customerId, firstName, lastName, address, invoiceNumber, contractNumber; najmanje jedan), get_troubleshooting_steps (service, symptom), find_available_employees (category, area), create_support_ticket (customerId, summary, confirmed, category, employeeId). Dodani list_service_catalog i get_support_tickets. Neki odgovori sada sadrže niz zapisa umjesto samo prvog rezultata.
-Primjeri: DEMO-001 (Ana Anić, Zagreb), DEMO-002 (Marko Horvat, Osijek), UG-001, RAC-001. Imena i prezimena u seedu su izmišljene kombinacije za prirodniji razgovor, ne predstavljaju stvarne osobe ni zaposlenike HT-a; podudarnosti sa stvarnim osobama su slučajne. Identifikatori, adrese i e-mailovi ostaju sintetički. search_customers vraća najviše 20 zapisa. Ne predstavlja autentikaciju; sva čitanja koriste isključivo fiktivne zapise.
-create_support_ticket zahtijeva confirmed=true, sažetak do 500 znakova, poznatog korisnika i dostupnog zaposlenika; automatski stvara simulirani e-mail outbox zapis, EmailSent=false. Nema stvarne dostave niti trajne pohrane. Ne ponavljati automatski poziv koji mijenja stanje.
+Primjeri: 710000001 (Ana Anić, Zagreb), 710000002 (Marko Horvat, Osijek), UG-001, RAC-001. Imena i prezimena u seedu su izmišljene kombinacije za prirodniji razgovor, ne predstavljaju stvarne osobe ni zaposlenike HT-a; podudarnosti sa stvarnim osobama su slučajne. Identifikatori, adrese i e-mailovi ostaju sintetički. search_customers vraća najviše 20 zapisa. Ne predstavlja autentikaciju; sva čitanja koriste isključivo fiktivne zapise.
+create_support_ticket zahtijeva confirmed=true, sažetak do 500 znakova, poznatog korisnika i dostupnog zaposlenika; automatski stvara e-mail outbox zapis, EmailSent=false. Nema stvarne dostave niti trajne pohrane. Ne ponavljati automatski poziv koji mijenja stanje.
 Kategorije zaposlenika: internet, mobile, tv, billing, contracts, sales, security, complaints, field, general.
  
 ## Provjera
-python3 scripts/validate_seed.py provjerava seed količine, jedinstvenost i referencijalni integritet. dotnet build provjerava C# kompilaciju. Nakon deploya provjeriti MCP tools/list, dohvat DEMO-001/002, račun RAC-001, ugovor UG-001, provjeru demo područja i kreiranje prijave uz potvrdu. Ne koristiti stvarne podatke.
+python3 scripts/validate_seed.py provjerava seed količine, jedinstvenost i referencijalni integritet. dotnet build provjerava C# kompilaciju. Nakon deploya provjeriti MCP tools/list, dohvat 710000001/710000002, račun RAC-001, ugovor UG-001, provjeru područja iz interne evidencije i kreiranje prijave uz potvrdu. Ne koristiti stvarne podatke.
 
 ## Microsoft Teams
-See [TeamsApp/README.md](TeamsApp/README.md) for the channel tab package and installation. This is a public synthetic-only demo, not a native Teams calling bot.
+See [TeamsApp/README.md](TeamsApp/README.md) for the channel tab package and installation. This is a public synthetic-data application, not a native Teams calling bot.

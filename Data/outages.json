@@ -4,69 +4,69 @@
     "area": "Zagreb",
     "outage": true,
     "service": "internet",
-    "note": "Simulirana poteškoća; stvarni status nije provjeren."
+    "note": "U internoj evidenciji zabilježena je poteškoća; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-002",
     "area": "Osijek",
     "outage": false,
     "service": "mobile",
-    "note": "Nema evidentirane simulirane poteškoće; stvarni status nije provjeren."
+    "note": "U internoj evidenciji nema zabilježene poteškoće; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-003",
     "area": "Požega",
     "outage": false,
     "service": "internet",
-    "note": "Nema evidentirane simulirane poteškoće; stvarni status nije provjeren."
+    "note": "U internoj evidenciji nema zabilježene poteškoće; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-004",
     "area": "Split",
     "outage": true,
     "service": "mobile",
-    "note": "Simulirana poteškoća; stvarni status nije provjeren."
+    "note": "U internoj evidenciji zabilježena je poteškoća; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-005",
     "area": "Rijeka",
     "outage": false,
     "service": "internet",
-    "note": "Nema evidentirane simulirane poteškoće; stvarni status nije provjeren."
+    "note": "U internoj evidenciji nema zabilježene poteškoće; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-006",
     "area": "Varaždin",
     "outage": false,
     "service": "mobile",
-    "note": "Nema evidentirane simulirane poteškoće; stvarni status nije provjeren."
+    "note": "U internoj evidenciji nema zabilježene poteškoće; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-007",
     "area": "Zadar",
     "outage": true,
     "service": "internet",
-    "note": "Simulirana poteškoća; stvarni status nije provjeren."
+    "note": "U internoj evidenciji zabilježena je poteškoća; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-008",
     "area": "Slavonski Brod",
     "outage": false,
     "service": "mobile",
-    "note": "Nema evidentirane simulirane poteškoće; stvarni status nije provjeren."
+    "note": "U internoj evidenciji nema zabilježene poteškoće; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-009",
     "area": "Pula",
     "outage": false,
     "service": "internet",
-    "note": "Nema evidentirane simulirane poteškoće; stvarni status nije provjeren."
+    "note": "U internoj evidenciji nema zabilježene poteškoće; status stvarne mreže nije provjeren."
   },
   {
     "id": "OUT-010",
     "area": "Karlovac",
     "outage": true,
     "service": "mobile",
-    "note": "Simulirana poteškoća; stvarni status nije provjeren."
+    "note": "U internoj evidenciji zabilježena je poteškoća; status stvarne mreže nije provjeren."
   }
 ]
